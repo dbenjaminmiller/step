@@ -1,0 +1,6 @@
+include (langsys.fea)
+include (locl.fea)
+include (smallcaps.fea)
+include (step.fea)
+include (frac.fea)
+include (numrdnom.fea)
