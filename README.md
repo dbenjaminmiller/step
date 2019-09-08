@@ -8,6 +8,6 @@ The STEP fonts were forked from XITS and include all the same features. The metr
 Contributing
 ------------
 
-A patch may be created by editing the SFD files under the `sources` directory in the [source repository][https://github.com/dbenjaminmiller/step] using [FontForge][https://fontforge.github.io]. When submitting patches, please run `make normalize` before committing and avoid any unrelated or unnecessary changes.
+A patch may be created by editing the SFD files under the `sources` directory in the [source repository](https://github.com/dbenjaminmiller/step) using [FontForge](https://fontforge.github.io). When submitting patches, please run `make normalize` before committing and avoid any unrelated or unnecessary changes.
 
-To build the fonts from source you need GNU Make, the FontForge Python module, and [FontTools][https://github.com/fonttools/fonttools].
+To build the fonts from source you need GNU Make, the FontForge Python module, and [FontTools](https://github.com/fonttools/fonttools).
