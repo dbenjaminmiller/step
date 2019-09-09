@@ -268,4 +268,11 @@ feature smcp {
     sub uni214B by uni214B.sc;
     sub scommaaccent by scommaaccent.sc;
     sub uni021B by uni021B.sc;
+    sub ff by ff.sc;
+    sub fi by fi.sc;
+    sub fl by fl.sc;
+    sub ffi by ffi.sc;
+    sub ffl by ffl.sc;
+    sub f_j by f_j.sc;
+    sub f_f_j by f_f_j.sc;
 } smcp;
