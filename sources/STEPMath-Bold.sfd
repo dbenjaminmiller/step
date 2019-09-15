@@ -20,6 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1232396790
+ModificationTime: 1568528764
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +55,7 @@ OS2Vendor: 'STEP'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "MicroPress Inc., with final additions and corrections provided by Coen Hoffman, Elsevier (retired)" "Arie de Ruiter, who in 1995 was Head of Information Technology Development at Elsevier Science, made a proposal to the STI Pub group, an informal group of publishers consisting of representatives from the American Chemical Society (ACS), American Institute of Physics (AIP), American Mathematical Society (AMS), American Physical Society (APS), Elsevier, and Institute of Electrical and Electronics Engineers (IEEE). De Ruiter encouraged the members to consider development of a series of Web fonts, which he proposed should be called the Scientific and Technical Information eXchange, or STIX, Fonts. All STI Pub member organizations enthusiastically endorsed this proposal, and the STI Pub group agreed to embark on what has become a twelve-year project. The goal of the project was to identify all alphabetic, symbolic, and other special characters used in any facet of scientific publishing and to create a set of Unicode-based fonts that would be distributed free to every scientist, student, and other interested party worldwide. The fonts would be consistent with the emerging Unicode standard, and would permit universal representation of every character. With the release of the STIX fonts, de Ruiter's vision has been realized." "https://github.com/alif-type/step" "http://www.micropress-inc.com" "As a condition for receiving these fonts at no charge, each person downloading the fonts must agree to some simple license terms. The license is based on the SIL Open Font License <http://scripts.sil.org/cms/scripts/page.php?site_id+AD0A-nrsi&id+AD0A-OFL>. The SIL License is a free and open source license specifically designed for fonts and related software. The basic terms are that the recipient will not remove the copyright and trademark statements from the fonts and that, if the person decides to create a derivative work based on the STIX Fonts but incorporating some changes or enhancements, the derivative work (+ACIA-Modified Version+ACIA) will carry a different name. The copyright and trademark restrictions are part of the agreement between the STI Pub companies and the typeface designer. The +ACIA-renaming+ACIA restriction results from the desire of the STI Pub companies to assure that the STIX Fonts will continue to function in a predictable fashion for all that use them. No copy of one or more of the individual Font typefaces that form the STIX Fonts(TM) set may be sold by itself, but other than this one restriction, licensees are free to sell the fonts either separately or as part of a package that combines other software or fonts with this font set." "http://www.stixfonts.org/user_license.html"
+LangName: 1033
 GaspTable: 2 8 3 65535 3 0
 MATH:ScriptPercentScaleDown: 75
 MATH:ScriptScriptPercentScaleDown: 60
@@ -116,6 +117,10 @@ MATH:MinConnectorOverlap: 50
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
+DisplaySize: -128
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 32 8 1
 BeginPrivate: 6
 BlueValues 23 [-19 0 461 473 676 691]
 BlueShift 1 6
@@ -276,49 +281,51 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 5
-Width: 749
+Width: 1000
 GlyphClass: 2
 Flags: MW
-HStem: -18 28<519.5 535> 300 33<593.5 616 531 621> 322 30<191 205> 584 31<404.5 435> 634 40<238 261.5>
-VStem: 332 26<519.5 561.5 519.5 577> 663 25<194.5 243>
+HStem: -14 46<685 690> 294 46<271 283> 321 51<779 796 704.5 807> 585 38<505 529.5> 631 47<291.5 373> 672 20<690 728 728 728>
+VStem: 124 114 535 117 844 33<229 270>
 LayerCount: 2
 Fore
 SplineSet
-688 214 m 0xde
- 688 144 660 71 615 24 c 0
- 590 -3 554 -18 516 -18 c 0
- 440 -18 388 38 388 120 c 0
- 388 233 479 333 583 333 c 0
- 649 333 688 288 688 214 c 0xde
-663 220 m 0
- 663 266 638 300 604 300 c 0
- 583 300 563 285 542 254 c 0
- 510 206 486 129 486 76 c 0
- 486 33 503 10 536 10 c 0
- 566 10 591 26 615 61 c 1
- 643 104 663 169 663 220 c 0
-626 706 m 1
- 188 -29 l 1
- 140 -29 l 1
- 528 626 l 1
- 488 596 455 584 415 584 c 0
- 394 584 380 587 355 597 c 1
- 357 578 358 568 358 555 c 0
- 358 484 330 408 288 366 c 0
- 260 338 223 322 187 322 c 0x3e
- 113 322 61 379 61 461 c 0
- 61 575 153 674 258 674 c 0
- 284 674 303 666 329 645 c 0
- 358 622 376 615 412 615 c 0
- 478 615 527 642 578 706 c 1
- 626 706 l 1
-332 560 m 0
- 332 594 326 604 300 614 c 0
- 293 617 290 618 279 625 c 0
- 268 632 264 634 259 634 c 0
- 217 634 157 507 157 418 c 0
- 157 376 175 352 207 352 c 0
- 271 352 332 453 332 560 c 0
+761 372 m 0xb780
+ 831 372 877 327 877 257 c 0
+ 877 179 843 95 789 39 c 0
+ 758 6 712 -14 668 -14 c 0
+ 587 -14 535 41 535 125 c 0
+ 535 248 648 372 761 372 c 0xb780
+792 321 m 0
+ 766 321 744 305 719 269 c 0
+ 685 218 654 136 652 88 c 0
+ 650 54 669 32 701 32 c 0
+ 738 32 773 61 803 116 c 0
+ 831 166 844 209 844 249 c 0
+ 844 291 822 321 792 321 c 0
+728 692 m 1
+ 334 -8 l 1
+ 279 -8 l 1
+ 627 612 l 1
+ 584 594 547 585 512 585 c 0
+ 498 585 486 586 465 590 c 1
+ 464 501 448 445 406 383 c 0
+ 366 325 313 294 253 294 c 0
+ 177 294 124 350 124 430 c 0
+ 124 558 233 678 350 678 c 0x5b80
+ 375 678 399 669 425 651 c 0
+ 455 629 476 623 518 623 c 0
+ 579 623 652 650 675 681 c 0
+ 680 688 686 692 690 692 c 2
+ 728 692 l 1
+371 631 m 0
+ 355 633 331 613 309 581 c 0
+ 274 529 241 442 238 396 c 0
+ 236 363 256 340 286 340 c 0
+ 318 340 345 359 374 401 c 0
+ 410 454 432 519 432 569 c 0
+ 432 592 424 603 403 613 c 0
+ 397 615 395 617 387 623 c 0
+ 378 629 375 631 371 631 c 0
 EndSplineSet
 EndChar
 

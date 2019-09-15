@@ -1,5 +1,5 @@
 NAME=STEP
-VERSION=1.0a
+VERSION=2.0
 
 SRC=sources
 WEB=webfonts
@@ -20,16 +20,22 @@ OTF=$(FONTS:%=%.otf)
 WOF=$(FONTS:%=$(WEB)/%.woff)
 NRM=$(FONTS:%=$(SRC)/%.nrm)
 CHK=$(FONTS:%=$(SRC)/%.chk)
+TTF=$(FONTS:%=%.ttf)
 
 all: otf
 
 otf: $(OTF)
+ttf: $(TTF)
 web: $(WOF)
 normalize: $(NRM)
 check: $(CHK)
 
 %.otf: $(SRC)/%.sfd $(SRC)/%.fea
 	@echo "Building $@"
+	@$(PY) $(MAKEFNT) $< $@ --version=$(VERSION) --features=$(word 2,$+)
+
+%.ttf: $(SRC)/%.sfd $(SRC)/%.fea
+	@echo "Building TTF for $@"
 	@$(PY) $(MAKEFNT) $< $@ --version=$(VERSION) --features=$(word 2,$+)
 
 %.nrm: %.sfd $(NORMALIZE)
@@ -65,5 +71,5 @@ dist-ctan: $(OTF)
 	@zip -r $(DIST_CTAN).zip $(DIST_CTAN)
 
 clean:
-	@rm -rf $(OTF) $(DIST) $(DIST).zip $(DIST_CTAN) $(DIST_CTAN).zip $(NRM)\
+	@rm -rf $(OTF) $(TTF) $(DIST) $(DIST).zip $(DIST_CTAN) $(DIST_CTAN).zip $(NRM)\
 		$(CHK)

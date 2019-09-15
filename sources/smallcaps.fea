@@ -129,6 +129,11 @@ feature c2sc {
     sub uni203C by uni203C.sc;
     sub uni2047 by uni2047.sc;
     sub uni214B by uni214B.sc;
+    sub uni1E80 by uni1E81.sc;
+    sub uni1E82 by uni1E83.sc;
+    sub uni1E84 by uni1E85.sc;
+    sub uni1EF2 by uni1EF3.sc;
+	sub uni014E by uni014F.sc;
 } c2sc;
 
 feature smcp {
@@ -259,7 +264,7 @@ feature smcp {
     sub uni017A by uni017A.sc;
     sub uni017C by uni017C.sc;
     sub zcaron by uni017E.sc;
-    sub uni01F0 by uni01F0.sc;
+    #sub uni01F0 by uni01F0.sc;
     sub uni01FB by uni01FB.sc;
     sub uni01FD by uni01FD.sc;
     sub uni01FF by uni01FF.sc;
@@ -268,6 +273,10 @@ feature smcp {
     sub uni214B by uni214B.sc;
     sub scommaaccent by scommaaccent.sc;
     sub uni021B by uni021B.sc;
+    sub uni1E81 by uni1E81.sc;
+    sub uni1E83 by uni1E83.sc;
+    sub uni1E85 by uni1E85.sc;
+    sub uni1EF3 by uni1EF3.sc;
     sub ff by ff.sc;
     sub fi by fi.sc;
     sub fl by fl.sc;
@@ -275,4 +284,5 @@ feature smcp {
     sub ffl by ffl.sc;
     sub f_j by f_j.sc;
     sub f_f_j by f_f_j.sc;
+	sub uni014F by uni014F.sc;
 } smcp;
