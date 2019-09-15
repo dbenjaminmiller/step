@@ -1,4 +1,4 @@
-% !TEX TS-program = lualatex
+% !TEX TS-program = pdflatex
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -8,19 +8,19 @@
 \usepackage[main=english]{babel}
 \usepackage{booktabs}
 \title{The STEP fonts}
-\date{Version 2.0\\September 15, 2019}
+\date{Version 2.0a\\September 15, 2019}
 \author{Daniel~Benjamin Miller\thanks{\texttt{dbmiller@dbmiller.org}}}
 \begin{document}
 \maketitle
 The STEP fonts are a free Times-like (i.e., Times replacement) font family, implementing a design first created for \textit{The Times} of London in 1932. These fonts are meant to be compatible in design with Adobe's digitization of Linotype Times, commonly used in publishing. Linotype's Times design is similar, but not exactly identical to Monotype's Times New Roman. STEP is an acronym for \textit{Serif Typeface for Electronic Publishing}, though its meaning is intentionally flexible.
 \section{History}
-The STEP fonts are based on the (original) STIX\footnote{\texttt{https://ctan.org/pkg/stix}} and XITS\footnote{\texttt{https://github.com/alif-type/xits}} fonts. The core character set came from STIX; Khaled Hosny made some improvements and fixes in XITS. Other improvements were made my myself in upstream XITS. STEP, unlike XITS, does not hold itself to the goal of strict backwards compatibility. STEP's math fonts (available in OpenType format only at present) are almost unchanged from XITS'. STEP changes vertical metrics from XITS (mostly useful for non-\TeX\ applications) to match those of Adobe's Linotype Times. Further, for text fonts, STEP supports the Type 1 format and includes support for use with \LaTeX, although more features remain available in OpenType only.
+The STEP fonts are based on the STIX\footnote{\texttt{https://ctan.org/pkg/stix}} and XITS\footnote{\texttt{https://github.com/alif-type/xits}} fonts. The core character set came from STIX; Khaled Hosny made some improvements and fixes in XITS. Other improvements were made my myself in upstream XITS. STEP, unlike XITS, does not hold itself to the goal of strict backwards compatibility. STEP's math fonts (available in OpenType format only at present) are almost unchanged from XITS'. STEP changes vertical and horizontal metrics from XITS (mostly useful for non-\TeX\ applications) to match those of Adobe's Linotype Times. Further, for text fonts, STEP supports the Type 1 format and includes support for use with \LaTeX, although some features remain available in OpenType only.
 \section{Why STEP?}
-The STEP fonts are far from the only free digitization of Times available for use with \LaTeX. The fonts provide some features not found in other commonly-used versions, including small capitals and old-style figures which were manually drawn instead of scaled (semi-)automatically, ensuring higher quality; other Times fonts available often do not include small capitals or old-style figures at all. STEP also includes superior and inferior figures. The utmost care has been taken to ensure that all characters in STEP are of high quality.
+The STEP fonts are far from the only free digitization of Times available for use with \LaTeX. The fonts provide some features not found in other commonly-used versions, including small capitals and old-style figures which were manually drawn instead of scaled (semi-) automatically, ensuring higher quality; other Times fonts available often do not include small capitals or old-style figures at all. STEP also includes superior and inferior figures. The utmost care has been taken to ensure that all characters in STEP are of high quality.
 
-Greek support is limited; polytonic Greek is found in the regular font, whereas the other fonts in the family support monotonic Greek only. The Greek does not correspond in design to Linotype Times, but rather to MicroPress ``TM Text Extension'' (MicroPress kindly donated some outlines to the STIX project). For a Greek font more similar to Linotype's, see the \texttt{tempora}\footnote{\texttt{https://ctan.org/pkg/tempora}} package. Cyrillic support is from URW's Nimbus Roman. I do not personally use the Cyrillic alphabet, so I cannot comment on the character set. STEP's character support for certain other languages which use the Latin alphabet (e.g., Vietnamese) is lacking, and improvements are planned for the future.
+Greek support is limited; polytonic Greek is found in the regular font, whereas the other fonts in the family support monotonic Greek only. The Greek does not correspond in design to Linotype Times, but rather to MicroPress' TM Text Extension (MicroPress kindly donated some outlines to the STIX project). For a Greek font more similar to Linotype's, see the \texttt{tempora}\footnote{\texttt{https://ctan.org/pkg/tempora}} package. Cyrillic support is from URW's Nimbus Roman. I do not personally use the Cyrillic alphabet, so I cannot comment on the character set. STEP's character support for certain other languages which use the Latin alphabet (e.g., Vietnamese) is lacking, and improvements are planned for the future.
 \section{Usage with \texttt{fontspec}}
-If you do not need to use a legacy \TeX\ engine, simply use \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}} as follows:
+If you do not need to use a legacy \TeX\ engine, you may simply use \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}} as follows:
 \begin{verbatim}
 \usepackage{fontspec}
 \setmainfont{STEP}
@@ -32,7 +32,7 @@ If you wish to use the math font as well, this is possible:
 \end{verbatim}
 When using \texttt{fontspec}, all font options are handled according to that package's facilities. See its documentation for details.
 \section{Usage with the \texttt{step} \LaTeX\ package}
-To use the STEP fonts in older \TeX\ engines, you may use the \LaTeX\ package \texttt{step}.
+To use the STEP with 8-bit \TeX\ engines, you may use the \LaTeX\ package \texttt{step}.
 \begin{verbatim}
 \usepackage{step}
 \end{verbatim}
@@ -59,7 +59,7 @@ Text Command & Feature \\
 \bottomrule
 \end{tabular}
 \section{Contributing}
-Contributions to the fonts themselves may be sent as pull requests to the project's GitHub repository.\footnote{\texttt{https://github.com/dbenjaminmiller/step}}
+Contributions to the fonts and their \LaTeX\ support may be sent as pull requests to the project's GitHub repository.\footnote{\texttt{https://github.com/dbenjaminmiller/step}}
 \section{Licensing}
 STEP is licensed under the Open Font License (OFL) version 1.1; see \texttt{STEP-COPYING} for details.
 \end{document}
