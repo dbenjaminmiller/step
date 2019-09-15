@@ -12,21 +12,6 @@
 \DeclareFontFamily{T2A}{STEP-Sup}{}
 
 
-%   ----  regular  ----
-
-\DeclareFontShape{T2A}{STEP-Sup}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-sup-t2a
-}{}
-
-\DeclareFontShape{T2A}{STEP-Sup}{regular}{it}{
-      <-> \STEP@@scale STEP-Italic-sup-t2a
-}{}
-
-\DeclareFontShape{T2A}{STEP-Sup}{regular}{sl}{
-      <-> ssub * STEP-Sup/regular/it
-}{}
-
-
 %   ----  bold  ----
 
 \DeclareFontShape{T2A}{STEP-Sup}{bold}{n}{
@@ -41,6 +26,21 @@
       <-> ssub * STEP-Sup/bold/it
 }{}
 
+
+%   ----  regular  ----
+
+\DeclareFontShape{T2A}{STEP-Sup}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-sup-t2a
+}{}
+
+\DeclareFontShape{T2A}{STEP-Sup}{regular}{it}{
+      <-> \STEP@@scale STEP-Italic-sup-t2a
+}{}
+
+\DeclareFontShape{T2A}{STEP-Sup}{regular}{sl}{
+      <-> ssub * STEP-Sup/regular/it
+}{}
+
 %
 %  Extra 'ssub' rules to map the standard NFSS codes to our fancy names
 %
@@ -51,20 +51,16 @@
       <-> ssub * STEP-Sup/regular/it
 }{}
 
-\DeclareFontShape{T2A}{STEP-Sup}{m}{sl}{
-      <-> ssub * STEP-Sup/regular/sl
-}{}
-
 \DeclareFontShape{T2A}{STEP-Sup}{m}{n}{
       <-> ssub * STEP-Sup/regular/n
 }{}
 
+\DeclareFontShape{T2A}{STEP-Sup}{m}{sl}{
+      <-> ssub * STEP-Sup/regular/sl
+}{}
+
 
 %   b --> bold
-
-\DeclareFontShape{T2A}{STEP-Sup}{b}{sl}{
-      <-> ssub * STEP-Sup/bold/sl
-}{}
 
 \DeclareFontShape{T2A}{STEP-Sup}{b}{n}{
       <-> ssub * STEP-Sup/bold/n
@@ -74,16 +70,20 @@
       <-> ssub * STEP-Sup/bold/it
 }{}
 
+\DeclareFontShape{T2A}{STEP-Sup}{b}{sl}{
+      <-> ssub * STEP-Sup/bold/sl
+}{}
+
+\DeclareFontShape{T2A}{STEP-Sup}{bx}{sl}{
+      <-> ssub * STEP-Sup/b/sl
+}{}
+
 \DeclareFontShape{T2A}{STEP-Sup}{bx}{it}{
       <-> ssub * STEP-Sup/b/it
 }{}
 
 \DeclareFontShape{T2A}{STEP-Sup}{bx}{n}{
       <-> ssub * STEP-Sup/b/n
-}{}
-
-\DeclareFontShape{T2A}{STEP-Sup}{bx}{sl}{
-      <-> ssub * STEP-Sup/b/sl
 }{}
 
 \endinput

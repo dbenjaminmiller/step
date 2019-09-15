@@ -14,16 +14,16 @@
 
 %   ----  regular  ----
 
+\DeclareFontShape{T2A}{STEP-TLF}{regular}{sc}{
+      <-> \STEP@@scale STEP-Regular-tlf-sc-t2a
+}{}
+
 \DeclareFontShape{T2A}{STEP-TLF}{regular}{n}{
       <-> \STEP@@scale STEP-Regular-tlf-t2a
 }{}
 
 \DeclareFontShape{T2A}{STEP-TLF}{regular}{it}{
       <-> \STEP@@scale STEP-Italic-tlf-t2a
-}{}
-
-\DeclareFontShape{T2A}{STEP-TLF}{regular}{sc}{
-      <-> \STEP@@scale STEP-Regular-tlf-sc-t2a
 }{}
 
 \DeclareFontShape{T2A}{STEP-TLF}{regular}{sl}{
@@ -33,12 +33,12 @@
 
 %   ----  bold  ----
 
-\DeclareFontShape{T2A}{STEP-TLF}{bold}{it}{
-      <-> \STEP@@scale STEP-BoldItalic-tlf-t2a
-}{}
-
 \DeclareFontShape{T2A}{STEP-TLF}{bold}{n}{
       <-> \STEP@@scale STEP-Bold-tlf-t2a
+}{}
+
+\DeclareFontShape{T2A}{STEP-TLF}{bold}{it}{
+      <-> \STEP@@scale STEP-BoldItalic-tlf-t2a
 }{}
 
 \DeclareFontShape{T2A}{STEP-TLF}{bold}{sl}{
@@ -55,12 +55,12 @@
       <-> ssub * STEP-TLF/regular/sl
 }{}
 
-\DeclareFontShape{T2A}{STEP-TLF}{m}{n}{
-      <-> ssub * STEP-TLF/regular/n
-}{}
-
 \DeclareFontShape{T2A}{STEP-TLF}{m}{it}{
       <-> ssub * STEP-TLF/regular/it
+}{}
+
+\DeclareFontShape{T2A}{STEP-TLF}{m}{n}{
+      <-> ssub * STEP-TLF/regular/n
 }{}
 
 \DeclareFontShape{T2A}{STEP-TLF}{m}{sc}{
@@ -82,16 +82,16 @@
       <-> ssub * STEP-TLF/bold/sl
 }{}
 
+\DeclareFontShape{T2A}{STEP-TLF}{bx}{n}{
+      <-> ssub * STEP-TLF/b/n
+}{}
+
 \DeclareFontShape{T2A}{STEP-TLF}{bx}{it}{
       <-> ssub * STEP-TLF/b/it
 }{}
 
 \DeclareFontShape{T2A}{STEP-TLF}{bx}{sl}{
       <-> ssub * STEP-TLF/b/sl
-}{}
-
-\DeclareFontShape{T2A}{STEP-TLF}{bx}{n}{
-      <-> ssub * STEP-TLF/b/n
 }{}
 
 \endinput

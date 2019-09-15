@@ -29,12 +29,12 @@
 
 %   ----  bold  ----
 
-\DeclareFontShape{OT1}{STEP-Sup}{bold}{it}{
-      <-> \STEP@@scale STEP-BoldItalic-sup-ot1
-}{}
-
 \DeclareFontShape{OT1}{STEP-Sup}{bold}{n}{
       <-> \STEP@@scale STEP-Bold-sup-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-Sup}{bold}{it}{
+      <-> \STEP@@scale STEP-BoldItalic-sup-ot1
 }{}
 
 \DeclareFontShape{OT1}{STEP-Sup}{bold}{sl}{
@@ -47,10 +47,6 @@
 
 %   m --> regular
 
-\DeclareFontShape{OT1}{STEP-Sup}{m}{it}{
-      <-> ssub * STEP-Sup/regular/it
-}{}
-
 \DeclareFontShape{OT1}{STEP-Sup}{m}{sl}{
       <-> ssub * STEP-Sup/regular/sl
 }{}
@@ -59,31 +55,35 @@
       <-> ssub * STEP-Sup/regular/n
 }{}
 
+\DeclareFontShape{OT1}{STEP-Sup}{m}{it}{
+      <-> ssub * STEP-Sup/regular/it
+}{}
+
 
 %   b --> bold
 
-\DeclareFontShape{OT1}{STEP-Sup}{b}{sl}{
-      <-> ssub * STEP-Sup/bold/sl
+\DeclareFontShape{OT1}{STEP-Sup}{b}{it}{
+      <-> ssub * STEP-Sup/bold/it
 }{}
 
 \DeclareFontShape{OT1}{STEP-Sup}{b}{n}{
       <-> ssub * STEP-Sup/bold/n
 }{}
 
-\DeclareFontShape{OT1}{STEP-Sup}{b}{it}{
-      <-> ssub * STEP-Sup/bold/it
+\DeclareFontShape{OT1}{STEP-Sup}{b}{sl}{
+      <-> ssub * STEP-Sup/bold/sl
 }{}
 
-\DeclareFontShape{OT1}{STEP-Sup}{bx}{it}{
-      <-> ssub * STEP-Sup/b/it
+\DeclareFontShape{OT1}{STEP-Sup}{bx}{sl}{
+      <-> ssub * STEP-Sup/b/sl
 }{}
 
 \DeclareFontShape{OT1}{STEP-Sup}{bx}{n}{
       <-> ssub * STEP-Sup/b/n
 }{}
 
-\DeclareFontShape{OT1}{STEP-Sup}{bx}{sl}{
-      <-> ssub * STEP-Sup/b/sl
+\DeclareFontShape{OT1}{STEP-Sup}{bx}{it}{
+      <-> ssub * STEP-Sup/b/it
 }{}
 
 \endinput

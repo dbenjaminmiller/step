@@ -12,25 +12,6 @@
 \DeclareFontFamily{OT1}{STEP-TLF}{}
 
 
-%   ----  regular  ----
-
-\DeclareFontShape{OT1}{STEP-TLF}{regular}{it}{
-      <-> \STEP@@scale STEP-Italic-tlf-ot1
-}{}
-
-\DeclareFontShape{OT1}{STEP-TLF}{regular}{sc}{
-      <-> \STEP@@scale STEP-Regular-tlf-sc-ot1
-}{}
-
-\DeclareFontShape{OT1}{STEP-TLF}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-tlf-ot1
-}{}
-
-\DeclareFontShape{OT1}{STEP-TLF}{regular}{sl}{
-      <-> ssub * STEP-TLF/regular/it
-}{}
-
-
 %   ----  bold  ----
 
 \DeclareFontShape{OT1}{STEP-TLF}{bold}{n}{
@@ -45,6 +26,25 @@
       <-> ssub * STEP-TLF/bold/it
 }{}
 
+
+%   ----  regular  ----
+
+\DeclareFontShape{OT1}{STEP-TLF}{regular}{sc}{
+      <-> \STEP@@scale STEP-Regular-tlf-sc-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-TLF}{regular}{it}{
+      <-> \STEP@@scale STEP-Italic-tlf-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-TLF}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-tlf-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-TLF}{regular}{sl}{
+      <-> ssub * STEP-TLF/regular/it
+}{}
+
 %
 %  Extra 'ssub' rules to map the standard NFSS codes to our fancy names
 %
@@ -55,12 +55,12 @@
       <-> ssub * STEP-TLF/regular/sl
 }{}
 
-\DeclareFontShape{OT1}{STEP-TLF}{m}{n}{
-      <-> ssub * STEP-TLF/regular/n
-}{}
-
 \DeclareFontShape{OT1}{STEP-TLF}{m}{it}{
       <-> ssub * STEP-TLF/regular/it
+}{}
+
+\DeclareFontShape{OT1}{STEP-TLF}{m}{n}{
+      <-> ssub * STEP-TLF/regular/n
 }{}
 
 \DeclareFontShape{OT1}{STEP-TLF}{m}{sc}{
@@ -86,12 +86,12 @@
       <-> ssub * STEP-TLF/b/it
 }{}
 
-\DeclareFontShape{OT1}{STEP-TLF}{bx}{sl}{
-      <-> ssub * STEP-TLF/b/sl
-}{}
-
 \DeclareFontShape{OT1}{STEP-TLF}{bx}{n}{
       <-> ssub * STEP-TLF/b/n
+}{}
+
+\DeclareFontShape{OT1}{STEP-TLF}{bx}{sl}{
+      <-> ssub * STEP-TLF/b/sl
 }{}
 
 \endinput

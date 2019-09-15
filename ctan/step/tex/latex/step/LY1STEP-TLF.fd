@@ -14,12 +14,12 @@
 
 %   ----  bold  ----
 
-\DeclareFontShape{LY1}{STEP-TLF}{bold}{it}{
-      <-> \STEP@@scale STEP-BoldItalic-tlf-ly1
-}{}
-
 \DeclareFontShape{LY1}{STEP-TLF}{bold}{n}{
       <-> \STEP@@scale STEP-Bold-tlf-ly1
+}{}
+
+\DeclareFontShape{LY1}{STEP-TLF}{bold}{it}{
+      <-> \STEP@@scale STEP-BoldItalic-tlf-ly1
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{bold}{sl}{
@@ -29,16 +29,16 @@
 
 %   ----  regular  ----
 
-\DeclareFontShape{LY1}{STEP-TLF}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-tlf-ly1
-}{}
-
 \DeclareFontShape{LY1}{STEP-TLF}{regular}{sc}{
       <-> \STEP@@scale STEP-Regular-tlf-sc-ly1
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{regular}{it}{
       <-> \STEP@@scale STEP-Italic-tlf-ly1
+}{}
+
+\DeclareFontShape{LY1}{STEP-TLF}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-tlf-ly1
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{regular}{sl}{
@@ -51,16 +51,16 @@
 
 %   m --> regular
 
-\DeclareFontShape{LY1}{STEP-TLF}{m}{n}{
-      <-> ssub * STEP-TLF/regular/n
-}{}
-
 \DeclareFontShape{LY1}{STEP-TLF}{m}{sl}{
       <-> ssub * STEP-TLF/regular/sl
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{m}{sc}{
       <-> ssub * STEP-TLF/regular/sc
+}{}
+
+\DeclareFontShape{LY1}{STEP-TLF}{m}{n}{
+      <-> ssub * STEP-TLF/regular/n
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{m}{it}{
@@ -70,16 +70,20 @@
 
 %   b --> bold
 
-\DeclareFontShape{LY1}{STEP-TLF}{b}{n}{
-      <-> ssub * STEP-TLF/bold/n
-}{}
-
 \DeclareFontShape{LY1}{STEP-TLF}{b}{sl}{
       <-> ssub * STEP-TLF/bold/sl
 }{}
 
+\DeclareFontShape{LY1}{STEP-TLF}{b}{n}{
+      <-> ssub * STEP-TLF/bold/n
+}{}
+
 \DeclareFontShape{LY1}{STEP-TLF}{b}{it}{
       <-> ssub * STEP-TLF/bold/it
+}{}
+
+\DeclareFontShape{LY1}{STEP-TLF}{bx}{n}{
+      <-> ssub * STEP-TLF/b/n
 }{}
 
 \DeclareFontShape{LY1}{STEP-TLF}{bx}{it}{
@@ -88,10 +92,6 @@
 
 \DeclareFontShape{LY1}{STEP-TLF}{bx}{sl}{
       <-> ssub * STEP-TLF/b/sl
-}{}
-
-\DeclareFontShape{LY1}{STEP-TLF}{bx}{n}{
-      <-> ssub * STEP-TLF/b/n
 }{}
 
 \endinput

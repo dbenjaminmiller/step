@@ -12,25 +12,6 @@
 \DeclareFontFamily{T1}{STEP-TOsF}{}
 
 
-%   ----  regular  ----
-
-\DeclareFontShape{T1}{STEP-TOsF}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-tosf-t1
-}{}
-
-\DeclareFontShape{T1}{STEP-TOsF}{regular}{sc}{
-      <-> \STEP@@scale STEP-Regular-tosf-sc-t1
-}{}
-
-\DeclareFontShape{T1}{STEP-TOsF}{regular}{it}{
-      <-> \STEP@@scale STEP-Italic-tosf-t1
-}{}
-
-\DeclareFontShape{T1}{STEP-TOsF}{regular}{sl}{
-      <-> ssub * STEP-TOsF/regular/it
-}{}
-
-
 %   ----  bold  ----
 
 \DeclareFontShape{T1}{STEP-TOsF}{bold}{it}{
@@ -43,6 +24,25 @@
 
 \DeclareFontShape{T1}{STEP-TOsF}{bold}{sl}{
       <-> ssub * STEP-TOsF/bold/it
+}{}
+
+
+%   ----  regular  ----
+
+\DeclareFontShape{T1}{STEP-TOsF}{regular}{it}{
+      <-> \STEP@@scale STEP-Italic-tosf-t1
+}{}
+
+\DeclareFontShape{T1}{STEP-TOsF}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-tosf-t1
+}{}
+
+\DeclareFontShape{T1}{STEP-TOsF}{regular}{sc}{
+      <-> \STEP@@scale STEP-Regular-tosf-sc-t1
+}{}
+
+\DeclareFontShape{T1}{STEP-TOsF}{regular}{sl}{
+      <-> ssub * STEP-TOsF/regular/it
 }{}
 
 %
@@ -70,6 +70,10 @@
 
 %   b --> bold
 
+\DeclareFontShape{T1}{STEP-TOsF}{b}{n}{
+      <-> ssub * STEP-TOsF/bold/n
+}{}
+
 \DeclareFontShape{T1}{STEP-TOsF}{b}{it}{
       <-> ssub * STEP-TOsF/bold/it
 }{}
@@ -78,20 +82,16 @@
       <-> ssub * STEP-TOsF/bold/sl
 }{}
 
-\DeclareFontShape{T1}{STEP-TOsF}{b}{n}{
-      <-> ssub * STEP-TOsF/bold/n
-}{}
-
 \DeclareFontShape{T1}{STEP-TOsF}{bx}{sl}{
       <-> ssub * STEP-TOsF/b/sl
 }{}
 
-\DeclareFontShape{T1}{STEP-TOsF}{bx}{n}{
-      <-> ssub * STEP-TOsF/b/n
-}{}
-
 \DeclareFontShape{T1}{STEP-TOsF}{bx}{it}{
       <-> ssub * STEP-TOsF/b/it
+}{}
+
+\DeclareFontShape{T1}{STEP-TOsF}{bx}{n}{
+      <-> ssub * STEP-TOsF/b/n
 }{}
 
 \endinput

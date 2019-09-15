@@ -29,12 +29,12 @@
 
 %   ----  regular  ----
 
-\DeclareFontShape{T2C}{STEP-TLF}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-tlf-t2c
-}{}
-
 \DeclareFontShape{T2C}{STEP-TLF}{regular}{it}{
       <-> \STEP@@scale STEP-Italic-tlf-t2c
+}{}
+
+\DeclareFontShape{T2C}{STEP-TLF}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-tlf-t2c
 }{}
 
 \DeclareFontShape{T2C}{STEP-TLF}{regular}{sc}{
@@ -51,6 +51,14 @@
 
 %   m --> regular
 
+\DeclareFontShape{T2C}{STEP-TLF}{m}{sl}{
+      <-> ssub * STEP-TLF/regular/sl
+}{}
+
+\DeclareFontShape{T2C}{STEP-TLF}{m}{n}{
+      <-> ssub * STEP-TLF/regular/n
+}{}
+
 \DeclareFontShape{T2C}{STEP-TLF}{m}{it}{
       <-> ssub * STEP-TLF/regular/it
 }{}
@@ -59,31 +67,19 @@
       <-> ssub * STEP-TLF/regular/sc
 }{}
 
-\DeclareFontShape{T2C}{STEP-TLF}{m}{n}{
-      <-> ssub * STEP-TLF/regular/n
-}{}
-
-\DeclareFontShape{T2C}{STEP-TLF}{m}{sl}{
-      <-> ssub * STEP-TLF/regular/sl
-}{}
-
 
 %   b --> bold
-
-\DeclareFontShape{T2C}{STEP-TLF}{b}{it}{
-      <-> ssub * STEP-TLF/bold/it
-}{}
 
 \DeclareFontShape{T2C}{STEP-TLF}{b}{sl}{
       <-> ssub * STEP-TLF/bold/sl
 }{}
 
-\DeclareFontShape{T2C}{STEP-TLF}{b}{n}{
-      <-> ssub * STEP-TLF/bold/n
+\DeclareFontShape{T2C}{STEP-TLF}{b}{it}{
+      <-> ssub * STEP-TLF/bold/it
 }{}
 
-\DeclareFontShape{T2C}{STEP-TLF}{bx}{n}{
-      <-> ssub * STEP-TLF/b/n
+\DeclareFontShape{T2C}{STEP-TLF}{b}{n}{
+      <-> ssub * STEP-TLF/bold/n
 }{}
 
 \DeclareFontShape{T2C}{STEP-TLF}{bx}{sl}{
@@ -92,6 +88,10 @@
 
 \DeclareFontShape{T2C}{STEP-TLF}{bx}{it}{
       <-> ssub * STEP-TLF/b/it
+}{}
+
+\DeclareFontShape{T2C}{STEP-TLF}{bx}{n}{
+      <-> ssub * STEP-TLF/b/n
 }{}
 
 \endinput

@@ -12,22 +12,11 @@
 \DeclareFontFamily{OT1}{STEP-TOsF}{}
 
 
-%   ----  bold  ----
-
-\DeclareFontShape{OT1}{STEP-TOsF}{bold}{n}{
-      <-> \STEP@@scale STEP-Bold-tosf-ot1
-}{}
-
-\DeclareFontShape{OT1}{STEP-TOsF}{bold}{it}{
-      <-> \STEP@@scale STEP-BoldItalic-tosf-ot1
-}{}
-
-\DeclareFontShape{OT1}{STEP-TOsF}{bold}{sl}{
-      <-> ssub * STEP-TOsF/bold/it
-}{}
-
-
 %   ----  regular  ----
+
+\DeclareFontShape{OT1}{STEP-TOsF}{regular}{it}{
+      <-> \STEP@@scale STEP-Italic-tosf-ot1
+}{}
 
 \DeclareFontShape{OT1}{STEP-TOsF}{regular}{n}{
       <-> \STEP@@scale STEP-Regular-tosf-ot1
@@ -37,12 +26,23 @@
       <-> \STEP@@scale STEP-Regular-tosf-sc-ot1
 }{}
 
-\DeclareFontShape{OT1}{STEP-TOsF}{regular}{it}{
-      <-> \STEP@@scale STEP-Italic-tosf-ot1
-}{}
-
 \DeclareFontShape{OT1}{STEP-TOsF}{regular}{sl}{
       <-> ssub * STEP-TOsF/regular/it
+}{}
+
+
+%   ----  bold  ----
+
+\DeclareFontShape{OT1}{STEP-TOsF}{bold}{it}{
+      <-> \STEP@@scale STEP-BoldItalic-tosf-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-TOsF}{bold}{n}{
+      <-> \STEP@@scale STEP-Bold-tosf-ot1
+}{}
+
+\DeclareFontShape{OT1}{STEP-TOsF}{bold}{sl}{
+      <-> ssub * STEP-TOsF/bold/it
 }{}
 
 %
@@ -51,35 +51,39 @@
 
 %   m --> regular
 
-\DeclareFontShape{OT1}{STEP-TOsF}{m}{sc}{
-      <-> ssub * STEP-TOsF/regular/sc
-}{}
-
-\DeclareFontShape{OT1}{STEP-TOsF}{m}{it}{
-      <-> ssub * STEP-TOsF/regular/it
+\DeclareFontShape{OT1}{STEP-TOsF}{m}{sl}{
+      <-> ssub * STEP-TOsF/regular/sl
 }{}
 
 \DeclareFontShape{OT1}{STEP-TOsF}{m}{n}{
       <-> ssub * STEP-TOsF/regular/n
 }{}
 
-\DeclareFontShape{OT1}{STEP-TOsF}{m}{sl}{
-      <-> ssub * STEP-TOsF/regular/sl
+\DeclareFontShape{OT1}{STEP-TOsF}{m}{it}{
+      <-> ssub * STEP-TOsF/regular/it
+}{}
+
+\DeclareFontShape{OT1}{STEP-TOsF}{m}{sc}{
+      <-> ssub * STEP-TOsF/regular/sc
 }{}
 
 
 %   b --> bold
 
-\DeclareFontShape{OT1}{STEP-TOsF}{b}{it}{
-      <-> ssub * STEP-TOsF/bold/it
-}{}
-
 \DeclareFontShape{OT1}{STEP-TOsF}{b}{sl}{
       <-> ssub * STEP-TOsF/bold/sl
 }{}
 
+\DeclareFontShape{OT1}{STEP-TOsF}{b}{it}{
+      <-> ssub * STEP-TOsF/bold/it
+}{}
+
 \DeclareFontShape{OT1}{STEP-TOsF}{b}{n}{
       <-> ssub * STEP-TOsF/bold/n
+}{}
+
+\DeclareFontShape{OT1}{STEP-TOsF}{bx}{n}{
+      <-> ssub * STEP-TOsF/b/n
 }{}
 
 \DeclareFontShape{OT1}{STEP-TOsF}{bx}{it}{
@@ -88,10 +92,6 @@
 
 \DeclareFontShape{OT1}{STEP-TOsF}{bx}{sl}{
       <-> ssub * STEP-TOsF/b/sl
-}{}
-
-\DeclareFontShape{OT1}{STEP-TOsF}{bx}{n}{
-      <-> ssub * STEP-TOsF/b/n
 }{}
 
 \endinput

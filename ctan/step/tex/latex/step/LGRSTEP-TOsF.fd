@@ -18,12 +18,12 @@
       <-> \STEP@@scale STEP-Regular-tosf-lgr
 }{}
 
-\DeclareFontShape{LGR}{STEP-TOsF}{regular}{sc}{
-      <-> \STEP@@scale STEP-Regular-tosf-sc-lgr
-}{}
-
 \DeclareFontShape{LGR}{STEP-TOsF}{regular}{it}{
       <-> \STEP@@scale STEP-Italic-tosf-lgr
+}{}
+
+\DeclareFontShape{LGR}{STEP-TOsF}{regular}{sc}{
+      <-> \STEP@@scale STEP-Regular-tosf-sc-lgr
 }{}
 
 \DeclareFontShape{LGR}{STEP-TOsF}{regular}{sl}{
@@ -33,12 +33,12 @@
 
 %   ----  bold  ----
 
-\DeclareFontShape{LGR}{STEP-TOsF}{bold}{n}{
-      <-> \STEP@@scale STEP-Bold-tosf-lgr
-}{}
-
 \DeclareFontShape{LGR}{STEP-TOsF}{bold}{it}{
       <-> \STEP@@scale STEP-BoldItalic-tosf-lgr
+}{}
+
+\DeclareFontShape{LGR}{STEP-TOsF}{bold}{n}{
+      <-> \STEP@@scale STEP-Bold-tosf-lgr
 }{}
 
 \DeclareFontShape{LGR}{STEP-TOsF}{bold}{sl}{
@@ -51,20 +51,20 @@
 
 %   m --> regular
 
-\DeclareFontShape{LGR}{STEP-TOsF}{m}{n}{
-      <-> ssub * STEP-TOsF/regular/n
-}{}
-
-\DeclareFontShape{LGR}{STEP-TOsF}{m}{sl}{
-      <-> ssub * STEP-TOsF/regular/sl
-}{}
-
 \DeclareFontShape{LGR}{STEP-TOsF}{m}{it}{
       <-> ssub * STEP-TOsF/regular/it
 }{}
 
+\DeclareFontShape{LGR}{STEP-TOsF}{m}{n}{
+      <-> ssub * STEP-TOsF/regular/n
+}{}
+
 \DeclareFontShape{LGR}{STEP-TOsF}{m}{sc}{
       <-> ssub * STEP-TOsF/regular/sc
+}{}
+
+\DeclareFontShape{LGR}{STEP-TOsF}{m}{sl}{
+      <-> ssub * STEP-TOsF/regular/sl
 }{}
 
 
@@ -74,20 +74,20 @@
       <-> ssub * STEP-TOsF/bold/n
 }{}
 
-\DeclareFontShape{LGR}{STEP-TOsF}{b}{sl}{
-      <-> ssub * STEP-TOsF/bold/sl
-}{}
-
 \DeclareFontShape{LGR}{STEP-TOsF}{b}{it}{
       <-> ssub * STEP-TOsF/bold/it
 }{}
 
-\DeclareFontShape{LGR}{STEP-TOsF}{bx}{it}{
-      <-> ssub * STEP-TOsF/b/it
+\DeclareFontShape{LGR}{STEP-TOsF}{b}{sl}{
+      <-> ssub * STEP-TOsF/bold/sl
 }{}
 
 \DeclareFontShape{LGR}{STEP-TOsF}{bx}{sl}{
       <-> ssub * STEP-TOsF/b/sl
+}{}
+
+\DeclareFontShape{LGR}{STEP-TOsF}{bx}{it}{
+      <-> ssub * STEP-TOsF/b/it
 }{}
 
 \DeclareFontShape{LGR}{STEP-TOsF}{bx}{n}{

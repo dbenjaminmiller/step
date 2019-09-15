@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_wql5wdufgatxrvgre3iyrd2qlc
-% Encoding created by otftotfm on Tue Sep 10 00:18:15 2019
+% Encoding created by otftotfm on Sun Sep 15 08:04:32 2019
 % Command line follows encoding
 /AutoEnc_wql5wdufgatxrvgre3iyrd2qlc [
 %00
@@ -60,4 +60,4 @@
 % --encoding-directory=fonts/enc/dvips/step
 % --map-file=fonts/map/dvips/step/STEP.map --no-updmap --coding-scheme=TEX
 % TYPEWRITER AND WINDOWS ANSI --feature=kern --feature=sups --ligkern=* {KL}
-% * --feature=liga STEP-Regular.otf STEP-Regular-sup-ly1'
+% * --feature=liga STEP-Italic.otf STEP-Italic-sup-ly1'

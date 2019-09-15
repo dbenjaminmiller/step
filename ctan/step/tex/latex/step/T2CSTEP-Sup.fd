@@ -12,21 +12,6 @@
 \DeclareFontFamily{T2C}{STEP-Sup}{}
 
 
-%   ----  regular  ----
-
-\DeclareFontShape{T2C}{STEP-Sup}{regular}{it}{
-      <-> \STEP@@scale STEP-Italic-sup-t2c
-}{}
-
-\DeclareFontShape{T2C}{STEP-Sup}{regular}{n}{
-      <-> \STEP@@scale STEP-Regular-sup-t2c
-}{}
-
-\DeclareFontShape{T2C}{STEP-Sup}{regular}{sl}{
-      <-> ssub * STEP-Sup/regular/it
-}{}
-
-
 %   ----  bold  ----
 
 \DeclareFontShape{T2C}{STEP-Sup}{bold}{it}{
@@ -41,26 +26,45 @@
       <-> ssub * STEP-Sup/bold/it
 }{}
 
+
+%   ----  regular  ----
+
+\DeclareFontShape{T2C}{STEP-Sup}{regular}{n}{
+      <-> \STEP@@scale STEP-Regular-sup-t2c
+}{}
+
+\DeclareFontShape{T2C}{STEP-Sup}{regular}{it}{
+      <-> \STEP@@scale STEP-Italic-sup-t2c
+}{}
+
+\DeclareFontShape{T2C}{STEP-Sup}{regular}{sl}{
+      <-> ssub * STEP-Sup/regular/it
+}{}
+
 %
 %  Extra 'ssub' rules to map the standard NFSS codes to our fancy names
 %
 
 %   m --> regular
 
-\DeclareFontShape{T2C}{STEP-Sup}{m}{sl}{
-      <-> ssub * STEP-Sup/regular/sl
+\DeclareFontShape{T2C}{STEP-Sup}{m}{it}{
+      <-> ssub * STEP-Sup/regular/it
 }{}
 
 \DeclareFontShape{T2C}{STEP-Sup}{m}{n}{
       <-> ssub * STEP-Sup/regular/n
 }{}
 
-\DeclareFontShape{T2C}{STEP-Sup}{m}{it}{
-      <-> ssub * STEP-Sup/regular/it
+\DeclareFontShape{T2C}{STEP-Sup}{m}{sl}{
+      <-> ssub * STEP-Sup/regular/sl
 }{}
 
 
 %   b --> bold
+
+\DeclareFontShape{T2C}{STEP-Sup}{b}{sl}{
+      <-> ssub * STEP-Sup/bold/sl
+}{}
 
 \DeclareFontShape{T2C}{STEP-Sup}{b}{it}{
       <-> ssub * STEP-Sup/bold/it
@@ -70,16 +74,12 @@
       <-> ssub * STEP-Sup/bold/n
 }{}
 
-\DeclareFontShape{T2C}{STEP-Sup}{b}{sl}{
-      <-> ssub * STEP-Sup/bold/sl
+\DeclareFontShape{T2C}{STEP-Sup}{bx}{sl}{
+      <-> ssub * STEP-Sup/b/sl
 }{}
 
 \DeclareFontShape{T2C}{STEP-Sup}{bx}{it}{
       <-> ssub * STEP-Sup/b/it
-}{}
-
-\DeclareFontShape{T2C}{STEP-Sup}{bx}{sl}{
-      <-> ssub * STEP-Sup/b/sl
 }{}
 
 \DeclareFontShape{T2C}{STEP-Sup}{bx}{n}{
