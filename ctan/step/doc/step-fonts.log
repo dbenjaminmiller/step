@@ -1,0 +1,557 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.20)  19 SEP 2019 16:43
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**step-fonts.tex
+(./step-fonts.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/texmf-local/tex/latex/step/step.sty
+Package: step 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 94.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count88
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+\MT@toks=\toks19
+\MT@count=\count92
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen111
+LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+\MT@listname@count=\count93
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip43
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/07/19 3.33 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count94
+\U@D=\dimen112
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count95
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count96
+\@cmidlb=\count97
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count98
+\@lastruleclass=\count99
+\@thisrulewidth=\dimen125
+)
+No file step-fonts.aux.
+\openout1 = `step-fonts.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+STEP-TOsF on input line
+ 13.
+
+(/usr/local/texlive/texmf-local/tex/latex/step/T1STEP-TOsF.fd
+File: T1STEP-TOsF.fd 2019/09/15 (autoinst) Font definitions for T1/STEP-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <12> not available
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 13.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+\c@mv@tabular=\count100
+\c@mv@boldtabular=\count101
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 13.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `STEP-TOsF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 14.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 14.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <10> not available
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 14.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+STEP-TOsF on input lin
+e 14.
+
+(/usr/local/texlive/texmf-local/tex/latex/step/TS1STEP-TOsF.fd
+File: TS1STEP-TOsF.fd 2019/09/15 (autoinst) Font definitions for TS1/STEP-TOsF.
+
+)
+LaTeX Font Info:    Font shape `TS1/STEP-TOsF/m/n' in size <10> not available
+(Font)              Font shape `TS1/STEP-TOsF/regular/n' tried instead on input
+ line 14.
+LaTeX Font Info:    Font shape `TS1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 14.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `STEP-TOsF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <7> not available
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 14.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 14.
+LaTeX Font Info:    Font shape `TS1/STEP-TOsF/m/n' in size <7> not available
+(Font)              Font shape `TS1/STEP-TOsF/regular/n' tried instead on input
+ line 14.
+LaTeX Font Info:    Font shape `TS1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 14.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 15.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <17.28> not available
+
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 16.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 16.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <8> not available
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 17.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 17.
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 34.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 34.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/m/n' in size <14.4> not available
+(Font)              Font shape `T1/STEP-TOsF/regular/n' tried instead on input 
+line 40.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+LaTeX Font Info:    Try loading font information for T1+STEP-TLF on input line 
+45.
+
+(/usr/local/texlive/texmf-local/tex/latex/step/T1STEP-TLF.fd
+File: T1STEP-TLF.fd 2019/09/15 (autoinst) Font definitions for T1/STEP-TLF.
+)
+LaTeX Font Info:    Font shape `T1/STEP-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 45.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `STEP-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [2]
+LaTeX Font Info:    Font shape `T1/STEP-TOsF/regular/sc' will be
+(Font)              scaled to size 12.0pt on input line 56.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/STEP-TOsF/regular/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for T1+STEP-Sup on input line 
+57.
+
+(/usr/local/texlive/texmf-local/tex/latex/step/T1STEP-Sup.fd
+File: T1STEP-Sup.fd 2019/09/15 (autoinst) Font definitions for T1/STEP-Sup.
+)
+LaTeX Font Info:    Font shape `T1/STEP-Sup/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 57.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `STEP-Sup' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for T1+STEP-Inf on input line 
+58.
+
+(/usr/local/texlive/texmf-local/tex/latex/step/T1STEP-Inf.fd
+File: T1STEP-Inf.fd 2019/09/15 (autoinst) Font definitions for T1/STEP-Inf.
+)
+LaTeX Font Info:    Font shape `T1/STEP-Inf/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 58.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `STEP-Inf' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [3]
+(./step-fonts.aux) ) 
+Here is how much of TeX's memory you used:
+ 4345 strings out of 492609
+ 71304 string characters out of 6129048
+ 167058 words of memory out of 5000000
+ 8153 multiletter control sequences out of 15000+600000
+ 49637 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,11n,54p,842b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/texmf-local/fonts/enc/dvips/step/a_gwwg
+is.enc}{/usr/local/texlive/texmf-local/fonts/enc/dvips/step/a_owwokh.enc}{/usr/
+local/texlive/texmf-local/fonts/enc/dvips/step/a_h6i53a.enc}{/usr/local/texlive
+/texmf-local/fonts/enc/dvips/step/a_euweyh.enc}{/usr/local/texlive/2019/texmf-d
+ist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/texmf-local/fo
+nts/enc/dvips/step/a_enu25g.enc}{/usr/local/texlive/texmf-local/fonts/enc/dvips
+/step/a_g5azuq.enc}</usr/local/texlive/texmf-local/fonts/type1/step/STEP-Bold.p
+fb></usr/local/texlive/texmf-local/fonts/type1/step/STEP-Italic.pfb></usr/local
+/texlive/texmf-local/fonts/type1/step/STEP-Regular.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/cm-super/sftt1728.pfb>
+Output written on step-fonts.pdf (3 pages, 171037 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 17921 words of extra memory for PDF output out of 20736 (max. 10000000)
+

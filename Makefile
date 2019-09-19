@@ -1,5 +1,5 @@
 NAME=STEP
-VERSION=2.0
+VERSION=2.0.1
 
 SRC=sources
 WEB=webfonts
@@ -53,7 +53,7 @@ $(WEB)/%.woff: %.otf
 	@mkdir -p $(WEB)
 	@$(PY) $(MAKEWEB) $< $(WEB)
 
-dist: check dist-ctan $(OTF) $(WOF)
+dist: $(OTF) $(WOF)
 	@echo "Making dist tarball"
 	@mkdir -p $(DIST)/$(WEB)
 	@cp $(OTF) $(DIST)
