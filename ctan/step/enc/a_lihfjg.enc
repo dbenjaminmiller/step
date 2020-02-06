@@ -1,0 +1,64 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_lihfjgv3vupwhkt2vv7aci5sab
+% Encoding created by otftotfm on Thu Feb  6 13:37:56 2020
+% Command line follows encoding
+/AutoEnc_lihfjgv3vupwhkt2vv7aci5sab [
+%00
+  /uni02CB /uni02CA /circumflex /tilde /dieresis /uni02BA /ring /caron
+  /breve /uni02C9 /dotaccent /cedilla /ogonek /space /uni030D /uni030E
+%10
+  /uni030F /uni0311 /uni0321 /uni0322 /uni02BE /uni02BF /uni032A /uni032B
+  /uni02DF /dotlessi /uni0237 /uni02D6 /uni02D4 /uni02D5 /uni033A /uni033B
+%20
+  /uni033C /uni01C3 /uni02C8 /ff /.notdef /.notdef /uni0360 /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /uni0289 /uni0268 /uni028C /uni025C /uni0265 /uni0250 /uni0252 /uni0264
+  /uni0275 /uni0258 /uni02D0 /uni02D1 /fi /equal /uni2322 /question
+%40
+  /uni0259 /uni0251 /uni03B2 /uni0255 /eth /uni025B /uni0278 /uni0263
+  /uni0266 /uni026A /uni029D /uni0281 /uni028E /uni0271 /uni014B /uni0254
+%50
+  /uni0294 /uni0295 /uni027E /uni0283 /uni03B8 /uni028A /uni028B /uni026F
+  /uni03C7 /uni028F /uni0292 /bracketleft /uni02BD /bracketright /fl /ffi
+%60
+  /uni02BB /a /b /c /d /e /f /uni0261
+  /h /i /j /k /l /m /n /o
+%70
+  /p /q /r /s /t /u /v /w
+  /x /y /z /uni01C1 /uni01C0 /uni01C2 /uni02DE /uni02CC
+%80
+  /ffl /f_j /f_f_j /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /uni2502 /uni2551 /.notdef /.notdef /uni2197 /uni2198
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /uni0180 /uni0111 /uni0221 /.notdef /uni1D07 /g /.notdef /uni0285
+  /.notdef /uni029E /uni019A /uni03BB /.notdef /.notdef /uni0235 /.notdef
+%B0
+  /uni03C9 /uni03C9 /uni0286 /uni01AB /uni0236 /uni02A6 /uni02AE /uni02AF
+  /uni0293 /.notdef /afii10094 /afii10092 /uni02C0 /uni02C2 /uni02C3 /.notdef
+%C0
+  /uni1D00 /uni0188 /uni0297 /uni02A4 /uni025A /uni029A /uni025E /uni025D
+  /.notdef /uni029B /uni0267 /uni029C /uni0269 /.notdef /uni0199 /uni029F
+%D0
+  /uni026E /uni0277 /uni01A5 /uni02A0 /uni027C /uni027A /uni01AD /uni0276
+  /uni0287 /uni02A7 /uni1D1C /uni0296 /uni02A1 /uni02A2 /.notdef /.notdef
+%E0
+  /uni0299 /uni0253 /uni0257 /uni0256 /uni0260 /uni0262 /ae /ccedilla
+  /uni0127 /uni025F /uni0284 /uni026B /uni026C /uni026D /uni0270 /uni0273
+%F0
+  /uni0274 /uni0272 /uni0298 /uni027D /uni0279 /uni027B /uni0280 /oe
+  /oslash /uni0282 /uni0288 /uni028D /uni0290 /uni0291 /thorn /uni0195
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_t3
+% --tfm-directory=../new/fonts/tfm/public/step
+% --vf-directory=../new/fonts/vf/public/step
+% --type1-directory=../new/fonts/type1/public/step
+% --encoding-directory=../new/fonts/enc/dvips/step
+% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
+% --coding-scheme=TEX IPA ENCODING --feature=kern --feature=liga --ligkern=f
+% i =: fi --ligkern=f l =: fl --ligkern=f f =: ff --ligkern=ff i =: ffi
+% --ligkern=ff l =: ffl STEP-Regular.otf STEP-Regular-tlf-t3'

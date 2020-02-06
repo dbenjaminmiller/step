@@ -1,0 +1,65 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_ya3dy4kxwfctu4iiequlsj22jh
+% Encoding created by otftotfm on Thu Feb  6 13:37:55 2020
+% Command line follows encoding
+/AutoEnc_ya3dy4kxwfctu4iiequlsj22jh [
+%00
+  /endash /uni032F /.notdef /.notdef /.notdef /.notdef /uni03DB /uni03DB
+  /.notdef /uni1FBC /uni1FCC /uni1FFC /uni0391 /uni03AB /uni03B1 /uni03CB
+%10
+  /uni0316 /uni0317 /uni03DF /uni03D9 /uni032E /uni03D8 /uni03DA /uni03E0
+  /Euro /perthousand /uni0259 /uni03E1 /quoteleft /quoteright /breve /macron
+%20
+  /uni1FC1 /exclam /dieresis /uni0385 /uni1FED /percent /periodcentered /uni0384
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero.numr /one.numr /two.numr /three.numr /four.numr /five.numr /six.numr /seven.numr
+  /eight.numr /nine.numr /colon /uni0387 /uni1FFE /equal /uni1FBF /semicolon
+%40
+  /uni1FDF /uni0391 /uni0392 /uni1FDD /uni2206 /uni0395 /uni03A6 /uni0393
+  /uni0397 /uni0399 /uni0398 /uni039A /uni039B /uni039C /uni039D /uni039F
+%50
+  /uni03A0 /uni03A7 /uni03A1 /uni03A3 /uni03A4 /uni03A5 /uni1FDE /uni2126
+  /uni039E /uni03A8 /uni0396 /bracketleft /uni1FCF /bracketright /uni1FCE /uni1FCD
+%60
+  /uni1FEF /uni03B1 /uni03B2 /uni03C2 /uni03B4 /uni03B5 /uni03D5 /uni03B3
+  /uni03B7 /uni03B9 /uni03B8 /uni03BA /uni03BB /mu /uni03BD /uni03BF
+%70
+  /uni03C0 /uni03C7 /uni03C1 /uni03C3 /uni03C4 /uni03C5 /.notdef /uni03C9
+  /uni03BE /uni03C8 /uni03B6 /guillemotleft /uni037A /guillemotright /uni1FC0 /emdash
+%80
+  /uni1F70 /uni1F01 /uni1F00 /uni1F03 /uni1FB2 /uni1F81 /uni1F80 /uni1F83
+  /uni03AC /uni1F05 /uni1F04 /uni1F02 /uni1FB4 /uni1F85 /uni1F84 /uni1F82
+%90
+  /uni1FB6 /uni1F07 /uni1F06 /uni03DD /uni1FB7 /uni1F87 /uni1F86 /uni038C
+  /uni1F74 /uni1F21 /uni1F20 /uni038A /uni1FC2 /uni1F91 /uni1F90 /uni0389
+%A0
+  /uni03AE /uni1F25 /uni1F24 /uni1F23 /uni1FC4 /uni1F95 /uni1F94 /uni1F93
+  /uni1FC6 /uni1F27 /uni1F26 /uni1F22 /uni1FC7 /uni1F97 /uni1F96 /uni1F92
+%B0
+  /uni1F7C /uni1F61 /uni1F60 /uni1F63 /uni1FF2 /uni1FA1 /uni1FA0 /uni1FA3
+  /uni03CE /uni1F65 /uni1F64 /uni1F62 /uni1FF4 /uni1FA5 /uni1FA4 /uni1FA2
+%C0
+  /uni1FF6 /uni1F67 /uni1F66 /uni03DC /uni1FF7 /uni1FA7 /uni1FA6 /uni0388
+  /uni1F76 /uni1F31 /uni1F30 /uni1F33 /uni1F7A /uni1F51 /uni1F50 /uni1F53
+%D0
+  /uni03AF /uni1F35 /uni1F34 /uni1F32 /uni03CD /uni1F55 /uni1F54 /uni1F52
+  /uni1FD6 /uni1F37 /uni1F36 /uni03AA /uni1FE6 /uni1F57 /uni1F56 /uni03AB
+%E0
+  /uni1F72 /uni1F11 /uni1F10 /uni1F13 /uni1F78 /uni1F41 /uni1F40 /uni1F43
+  /uni03AD /uni1F15 /uni1F14 /uni1F12 /uni03CC /uni1F45 /uni1F44 /uni1F42
+%F0
+  /uni03CA /uni1FD2 /uni0390 /uni1FD7 /uni03CB /uni1FE2 /uni03B0 /uni1FE7
+  /uni1FB3 /uni1FC3 /uni1FF3 /uni1FE5 /uni1FE4 /uni0386 /.notdef /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_lgr
+% --tfm-directory=../new/fonts/tfm/public/step
+% --vf-directory=../new/fonts/vf/public/step
+% --type1-directory=../new/fonts/type1/public/step
+% --encoding-directory=../new/fonts/enc/dvips/step
+% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
+% --coding-scheme=GREEK FONT ENCODING - LGR --feature=kern --feature=liga
+% --feature=numr --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
+% --ligkern=ff i =: ffi --ligkern=ff l =: ffl --ligkern=* {KL} *
+% STEP-Regular.otf STEP-Regular-numr-lgr'

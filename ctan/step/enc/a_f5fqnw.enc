@@ -1,0 +1,65 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_f5fqnwwm6rxoebmbovt27qs3ze
+% Encoding created by otftotfm on Thu Feb  6 13:37:57 2020
+% Command line follows encoding
+/AutoEnc_f5fqnwwm6rxoebmbovt27qs3ze [
+%00
+  /grave /acute /circumflex /tilde /dieresis /hungarumlaut /ring /caron
+  /breve /macron /dotaccent /cedilla /ogonek /quotesinglbase /guilsinglleft /guilsinglright
+%10
+  /quotedblleft /quotedblright /quotedblbase /guillemotleft /guillemotright /endash /emdash /.notdef
+  /.notdef /dotlessi.sc /uni0237 /ff.sc /fi.sc /fl.sc /ffi.sc /ffl.sc
+%20
+  /space /exclam.sc /quotedbl /numbersign /dollar.sc /percent /ampersand.sc /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero /one /two /three /four /five /six /seven
+  /eight /nine /colon /semicolon /less /equal /greater /question.sc
+%40
+  /at /A /B /C /D /E /F /G
+  /H /I /J /K /L /M /N /O
+%50
+  /P /Q /R /S /T /U /V /W
+  /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+%60
+  /quoteleft /a.sc /b.sc /c.sc /d.sc /e.sc /f.sc /g.sc
+  /h.sc /i.sc /j.sc /k.sc /l.sc /m.sc /n.sc /o.sc
+%70
+  /p.sc /q.sc /r.sc /s.sc /t.sc /u.sc /v.sc /w.sc
+  /x.sc /y.sc /z.sc /braceleft /bar /braceright /asciitilde /hyphen
+%80
+  /uni0102 /uni0104 /uni0106 /uni010C /uni010E /uni011A /uni0118 /uni011E
+  /uni0139 /uni013D /Lslash /uni0143 /uni0147 /uni014A /uni0150 /uni0154
+%90
+  /uni0158 /uni015A /Scaron /uni015E /uni0164 /uni0162 /uni0170 /uni016E
+  /Ydieresis /uni0179 /Zcaron /uni017B /uni0132 /uni0130 /uni0111.sc /section
+%A0
+  /uni0103.sc /uni0105.sc /uni0107.sc /uni010D.sc /uni010F.sc /uni011B.sc /uni0119.sc /uni011F.sc
+  /uni013A.sc /uni013E.sc /lslash.sc /uni0144.sc /uni0148.sc /uni014B /uni0151.sc /uni0155.sc
+%B0
+  /uni0159.sc /uni015B.sc /scaron.sc /uni015F.sc /uni0165.sc /uni0163.sc /uni0171.sc /uni016F.sc
+  /ydieresis.sc /uni017A.sc /uni017E.sc /uni017C.sc /uni0133.sc /exclamdown.sc /questiondown.sc /sterling
+%C0
+  /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+  /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+%D0
+  /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /OE
+  /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /.notdef
+%E0
+  /agrave.sc /aacute.sc /acircumflex.sc /atilde.sc /adieresis.sc /aring.sc /ae.sc /ccedilla.sc
+  /egrave.sc /eacute.sc /ecircumflex.sc /edieresis.sc /igrave.sc /iacute.sc /icircumflex.sc /idieresis.sc
+%F0
+  /eth.sc /ntilde.sc /ograve.sc /oacute.sc /ocircumflex.sc /otilde.sc /odieresis.sc /oe.sc
+  /oslash.sc /ugrave.sc /uacute.sc /ucircumflex.sc /udieresis.sc /yacute.sc /thorn.sc /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_t1
+% --tfm-directory=../new/fonts/tfm/public/step
+% --vf-directory=../new/fonts/vf/public/step
+% --type1-directory=../new/fonts/type1/public/step
+% --encoding-directory=../new/fonts/enc/dvips/step
+% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
+% --coding-scheme=EXTENDED TEX FONT ENCODING - LATIN --feature=kern
+% --feature=liga --feature=smcp --ligkern=f i =: fi --ligkern=f l =: fl
+% --ligkern=f f =: ff --ligkern=ff i =: ffi --ligkern=ff l =: ffl
+% --unicoding=germandbls =: SSsmall STEP-Regular.otf STEP-Regular-tlf-sc-t1'

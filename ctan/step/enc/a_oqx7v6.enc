@@ -1,0 +1,65 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_oqx7v66vilwb22ocpaqstjso6h
+% Encoding created by otftotfm on Thu Feb  6 13:38:02 2020
+% Command line follows encoding
+/AutoEnc_oqx7v66vilwb22ocpaqstjso6h [
+%00
+  /endash /.notdef /.notdef /.notdef /.notdef /.notdef /uni03DB /uni03DB
+  /.notdef /.notdef /.notdef /.notdef /uni0391 /uni03AB /uni03B1 /uni03CB
+%10
+  /.notdef /.notdef /uni03DF /uni03D9 /.notdef /uni03D8 /uni03DA /uni03E0
+  /uni20AC /perthousand /uni0259 /uni03E1 /quoteleft /quoteright /breve /macron
+%20
+  /.notdef /exclam /dieresis /uni0385 /.notdef /percent /periodcentered /uni0384
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero.sups /one.sups /two.sups /three.sups /four.sups /five.sups /six.sups /seven.sups
+  /eight.sups /nine.sups /colon /uni0387 /.notdef /equal /.notdef /semicolon
+%40
+  /.notdef /uni0391 /uni0392 /.notdef /uni0394 /uni0395 /uni03A6 /uni0393
+  /uni0397 /uni0399 /uni0398 /uni039A /uni039B /uni039C /uni039D /uni039F
+%50
+  /uni03A0 /uni03A7 /uni03A1 /uni03A3 /uni03A4 /uni03A5 /.notdef /uni03A9
+  /uni039E /uni03A8 /uni0396 /bracketleft /.notdef /bracketright /.notdef /.notdef
+%60
+  /.notdef /uni03B1 /uni03B2 /uni03C2 /uni03B4 /uni03B5 /uni03D5 /uni03B3
+  /uni03B7 /uni03B9 /uni03B8 /uni03BA /uni03BB /mu /uni03BD /uni03BF
+%70
+  /uni03C0 /uni03C7 /uni03C1 /uni03C3 /uni03C4 /uni03C5 /.notdef /uni03C9
+  /uni03BE /uni03C8 /uni03B6 /guillemotleft /uni037A /guillemotright /.notdef /emdash
+%80
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /uni03AC /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /.notdef /uni03DD /.notdef /.notdef /.notdef /uni038C
+  /.notdef /.notdef /.notdef /uni038A /.notdef /.notdef /.notdef /uni0389
+%A0
+  /uni03AE /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%B0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /uni03CE /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%C0
+  /.notdef /.notdef /.notdef /uni03DC /.notdef /.notdef /.notdef /uni0388
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /uni03AF /.notdef /.notdef /.notdef /uni03CD /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /uni03AA /.notdef /.notdef /.notdef /uni03AB
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /uni03AD /.notdef /.notdef /.notdef /uni03CC /.notdef /.notdef /.notdef
+%F0
+  /uni03CA /.notdef /uni0390 /.notdef /uni03CB /.notdef /uni03B0 /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /uni0386 /.notdef /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_lgr
+% --tfm-directory=../new/fonts/tfm/public/step
+% --vf-directory=../new/fonts/vf/public/step
+% --type1-directory=../new/fonts/type1/public/step
+% --encoding-directory=../new/fonts/enc/dvips/step
+% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
+% --coding-scheme=GREEK FONT ENCODING - LGR --feature=kern --feature=liga
+% --feature=sups --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
+% --ligkern=ff i =: ffi --ligkern=ff l =: ffl --ligkern=* {KL} *
+% STEP-Italic.otf STEP-Italic-sup-lgr'

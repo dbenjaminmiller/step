@@ -1,14 +1,14 @@
-% !TEX TS-program = pdflatex
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[oldstyle]{step}
 \usepackage[letterpaper]{geometry}
-\usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage[main=english]{babel}
+\usepackage[protrusion,babel]{microtype}
+\usepackage[supstfm=STEP-Regular-sup-t1]{superiors}
 \usepackage{booktabs}
 \title{The STEP fonts}
-\date{Version 2.0.1\\September 19, 2019}
+\date{Version 2.0.2\\February 6, 2020}
 \author{Daniel~Benjamin Miller\thanks{\texttt{dbmiller@dbmiller.org}}}
 \begin{document}
 \maketitle
@@ -18,25 +18,14 @@ The STEP fonts are based on the STIX\footnote{\texttt{https://ctan.org/pkg/stix}
 \section{Why STEP?}
 The STEP fonts are far from the only free digitization of Times available for use with \LaTeX. The fonts provide some features not found in other commonly-used versions, including small capitals and old-style figures which were manually drawn instead of scaled (semi-) automatically, ensuring higher quality; other Times fonts available often do not include small capitals or old-style figures at all. STEP also includes superior and inferior figures. The utmost care has been taken to ensure that all characters in STEP are of high quality.
 
-Greek support is limited; polytonic Greek is found in the regular font, whereas the other fonts in the family support monotonic Greek only. The Greek does not correspond in design to Linotype Times, but rather to MicroPress' TM Text Extension (MicroPress kindly donated some outlines to the STIX project). For a Greek font more similar to Linotype's, see the \texttt{tempora}\footnote{\texttt{https://ctan.org/pkg/tempora}} package. Cyrillic support is from URW's Nimbus Roman. I do not personally use the Cyrillic alphabet, so I cannot comment on the character set. STEP's character support for certain other languages which use the Latin alphabet (e.g., Vietnamese) is lacking, and improvements are planned for the future.
-\section{Usage with \texttt{fontspec}}
-If you do not need to use a legacy \TeX\ engine, you may simply use \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}} as follows:
-\begin{verbatim}
-\usepackage{fontspec}
-\setmainfont{STEP}
-\end{verbatim}
-If you wish to use the math font as well, this is possible:
-\begin{verbatim}
-\usepackage{unicode-math}
-\setmathfont{STEP Math}
-\end{verbatim}
-When using \texttt{fontspec}, all font options are handled according to that package's facilities. See its documentation for details.
-\section{Usage with the \texttt{step} \LaTeX\ package}
-To use the STEP with 8-bit \TeX\ engines, you may use the \LaTeX\ package \texttt{step}.
+Greek support is limited; polytonic Greek is found in the regular font, whereas the other fonts in the family support monotonic Greek only. The Greek does not correspond in design to Linotype Times, but rather to MicroPress' TM Text Extension (MicroPress kindly donated some outlines to the STIX project). A better match is discussed in the \textit{Usage} section. Cyrillic support is from URW's Nimbus Roman. I do not personally use the Cyrillic alphabet, so I cannot comment on the character set. STEP's character support for certain other languages which use the Latin alphabet (e.g., Vietnamese) is lacking, and improvements are planned for the future.
+
+\section{Usage}
+To use the STEP, you may use the \LaTeX\ package \texttt{step}.
 \begin{verbatim}
 \usepackage{step}
 \end{verbatim}
-Do remember that it is usually wise to load \texttt{fontenc} with the appropriate encoding(s). The \LaTeX\ package does not include support for any math fonts; I recommend that you use STIX's math fonts instead with \texttt{\textbackslash usepackage[notext]\{stix\}}.
+Do remember that it is usually wise to load \texttt{fontenc} with the appropriate encoding(s). The \LaTeX\ package does not include support for any math fonts; I recommend that you use STIX's math fonts instead with \texttt{\textbackslash usepackage[notext]\{stix\}}. Alternatively, you can use \texttt{newtxmath} using \texttt{\textbackslash usepackage\{newtxmath\}}. See the documentation for those packages to find out more about available options.
 \subsection{Package Options}
 \begin{tabular}{@{} ll @{}}
 \toprule
@@ -58,6 +47,29 @@ Text Command & Feature \\
 \texttt{\textbackslash textin\{\}} & Use inferior figures \textin{1234567890}\\
 \bottomrule
 \end{tabular}
+\subsection{Greek text using \texttt{txfontsb}}
+For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb}. You can access these by adding the following to your preamble:
+\begin{verbatim}
+\usepackage{substitutefont}
+\substitutefont{LGR}{\rmdefault}{txrc}
+\end{verbatim}
+\subsection{Using superior figures for footnotes}
+To use superior figures for footnotes, include the following line in your preamble:
+\begin{verbatim}
+\usepackage[supstfm=STEP-Regular-sup-t1]{superiors}
+\end{verbatim}
+\subsection{Usage with \texttt{fontspec}}
+If you do not need to use an 8-bit \TeX\ engine, you may simply use \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}} as follows:
+\begin{verbatim}
+\usepackage{fontspec}
+\setmainfont{STEP}
+\end{verbatim}
+If you wish to use the math font as well (which is based on XITS), this is possible:
+\begin{verbatim}
+\usepackage{unicode-math}
+\setmathfont{STEP Math}
+\end{verbatim}
+When using \texttt{fontspec}, all font options are handled according to that package's facilities. See its documentation for details.
 \section{Contributing}
 Contributions to the fonts and their \LaTeX\ support may be sent as pull requests to the project's GitHub repository.\footnote{\texttt{https://github.com/dbenjaminmiller/step}}
 \section{Licensing}

@@ -1,0 +1,65 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_lws4feyiqaqi74pq2i32ouy7ph
+% Encoding created by otftotfm on Thu Feb  6 13:37:57 2020
+% Command line follows encoding
+/AutoEnc_lws4feyiqaqi74pq2i32ouy7ph [
+%00
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /uni02D7 /uni2193
+  /.notdef /uni0362 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%10
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%20
+  /.notdef /.notdef /.notdef /.notdef /uni0297 /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /uni03B3 /.notdef /.notdef /.notdef
+%30
+  /uniA727 /uni027F /.notdef /uni0284 /.notdef /.notdef /uni019E /uni2640
+  /uni26B2 /uni0298 /.notdef /.notdef /.notdef /.notdef /uni01AA /.notdef
+%40
+  /.notdef /.notdef /uni01BA /.notdef /.notdef /.notdef /.notdef /uni01C1
+  /uni01C2 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%50
+  /thorn.sc /thorn.sc /thorn.sc /thorn.sc /uni0294 /uni0294 /uni0294 /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%60
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%70
+  /.notdef /.notdef /uni03B4 /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /q.sc /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%80
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%B0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%C0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%F0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /ffl.sc /ffi.sc /ff.sc /fl.sc /l.sc /fi.sc /i.sc /f.sc
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_ts3
+% --tfm-directory=../new/fonts/tfm/public/step
+% --vf-directory=../new/fonts/vf/public/step
+% --type1-directory=../new/fonts/type1/public/step
+% --encoding-directory=../new/fonts/enc/dvips/step
+% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
+% --coding-scheme=TEX IPA SYMBOL ENCODING --feature=kern --feature=liga
+% --feature=smcp --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
+% --ligkern=ff i =: ffi --ligkern=ff l =: ffl --unicoding=germandbls =:
+% SSsmall STEP-Regular.otf STEP-Regular-tlf-sc-ts3'
