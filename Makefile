@@ -1,5 +1,5 @@
 NAME=STEP
-VERSION=2.0.3
+VERSION=2.0.4
 
 SRC=sources
 WEB=webfonts
@@ -12,8 +12,7 @@ MAKEFNT=$(TOOLS)/makefnt.py
 MAKEWEB=$(TOOLS)/makeweb.py
 NORMALIZE=$(TOOLS)/sfdnormalize.py
 
-FONTS=$(NAME)Math-Regular $(NAME)Math-Bold \
-      $(NAME)-Regular $(NAME)-Bold $(NAME)-Italic $(NAME)-BoldItalic
+FONTS=$(NAME)-Regular $(NAME)-Bold $(NAME)-Italic $(NAME)-BoldItalic
 
 SFD=$(FONTS:%=$(SRC)/%.sfd)
 OTF=$(FONTS:%=%.otf)

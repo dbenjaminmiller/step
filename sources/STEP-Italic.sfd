@@ -1,8 +1,8 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: STEP-Italic
 FullName: STEP Italic
 FamilyName: STEP
-Weight: Italic
+Weight: Regular
 Copyright: Copyright (c) 2001-2011 by the STI Pub Companies, consisting of the American Chemical Society, the American Institute of Physics, the American Mathematical Society, the American Physical Society, Elsevier, Inc., and The Institute of Electrical and Electronic Engineers, Inc.  Portions copyright (c) 1998-2003 by MicroPress, Inc.  Portions copyright (c) 1990 by Elsevier, Inc. Portions copyright (c) 2014, 2015 by (URW)++ Design & Development.  Portions copyright (c) 2009-2019 by Khaled Hosny. Portions copyright (c) by Daniel Benjamin Miller. All rights reserved.
 Version: $version
 ItalicAngle: -15.5
@@ -22,6 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1227710416
+ModificationTime: 1602987252
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -175,6 +176,10 @@ DesignSize: 120
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
+DisplaySize: -128
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 64 8 2
 BeginPrivate: 6
 BlueValues 15 [-18 0 653 667]
 BlueScale 8 0.039625
