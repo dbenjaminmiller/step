@@ -1,0 +1,63 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_kht4zkxzshl2ank3ofazl2nd3d
+% Encoding created by otftotfm on Sun Oct 18 00:16:15 2020
+% Command line follows encoding
+/AutoEnc_kht4zkxzshl2ank3ofazl2nd3d [
+%00
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%10
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%20
+  /.notdef /.notdef /.notdef /.notdef /uni0297 /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /uni03B3 /.notdef /.notdef /.notdef
+%30
+  /.notdef /uni027F /.notdef /uni0284 /.notdef /.notdef /uni019E /.notdef
+  /.notdef /uni0298 /.notdef /.notdef /.notdef /.notdef /uni01AA /.notdef
+%40
+  /.notdef /.notdef /uni01BA /.notdef /.notdef /.notdef /.notdef /uni01C1
+  /uni01C2 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%50
+  /thorn /thorn /thorn /thorn /uni0294 /uni0294 /uni0294 /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%60
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%70
+  /.notdef /.notdef /uni03B4 /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /q /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%80
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%B0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%C0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%F0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_ts3
+% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
+% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
+% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
+% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
+% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
+% --no-updmap --force --coding-scheme=TEX IPA SYMBOL ENCODING
+% STEP-Italic.otf STEP-Italic-tlf-ts3'

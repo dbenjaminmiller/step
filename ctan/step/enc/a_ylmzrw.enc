@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_ylmzrwzpqky2myuuq7gsayfh5h
-% Encoding created by otftotfm on Thu Feb  6 13:37:59 2020
+% Encoding created by otftotfm on Sun Oct 18 00:16:11 2020
 % Command line follows encoding
 /AutoEnc_ylmzrwzpqky2myuuq7gsayfh5h [
 %00
@@ -54,13 +54,13 @@
   /afii10090 /afii10091 /afii10092 /afii10093 /afii10094 /afii10095 /afii10096 /afii10097
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_t2a
-% --tfm-directory=../new/fonts/tfm/public/step
-% --vf-directory=../new/fonts/vf/public/step
-% --type1-directory=../new/fonts/type1/public/step
-% --encoding-directory=../new/fonts/enc/dvips/step
-% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
-% --coding-scheme=TEX CYRILLIC FONT ENCODING - T2A --feature=kern
-% --feature=liga --feature=onum --feature=smcp --ligkern=f i =: fi
-% --ligkern=f l =: fl --ligkern=f f =: ff --ligkern=ff i =: ffi --ligkern=ff
-% l =: ffl --unicoding=germandbls =: SSsmall STEP-Regular.otf
+% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
+% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
+% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
+% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
+% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
+% --no-updmap --force --coding-scheme=TEX CYRILLIC FONT ENCODING - T2A
+% --feature=kern --feature=liga --feature=onum --feature=smcp --ligkern=f i
+% =: fi --ligkern=f l =: fl --ligkern=f f =: ff --ligkern=ff i =: ffi
+% --ligkern=ff l =: ffl --unicoding=germandbls =: SSsmall STEP-Regular.otf
 % STEP-Regular-tosf-sc-t2a'

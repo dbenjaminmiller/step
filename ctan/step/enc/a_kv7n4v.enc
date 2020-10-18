@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_kv7n4vwyezn55a5usu2m2kg2lb
-% Encoding created by otftotfm on Thu Feb  6 13:37:52 2020
+% Encoding created by otftotfm on Sun Oct 18 00:16:09 2020
 % Command line follows encoding
 /AutoEnc_kv7n4vwyezn55a5usu2m2kg2lb [
 %00
@@ -54,12 +54,10 @@
   /uni1FB3 /uni1FC3 /uni1FF3 /uni1FE5 /uni1FE4 /uni0386 /.notdef /.notdef
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_lgr
-% --tfm-directory=../new/fonts/tfm/public/step
-% --vf-directory=../new/fonts/vf/public/step
-% --type1-directory=../new/fonts/type1/public/step
-% --encoding-directory=../new/fonts/enc/dvips/step
-% --map-file=../new/fonts/map/dvips/step/STEP.map --no-updmap
-% --coding-scheme=GREEK FONT ENCODING - LGR --feature=dnom --feature=kern
-% --feature=liga --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
-% --ligkern=ff i =: ffi --ligkern=ff l =: ffl --ligkern=* {KL} *
-% STEP-Regular.otf STEP-Regular-dnom-lgr'
+% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
+% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
+% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
+% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
+% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
+% --no-updmap --force --coding-scheme=GREEK FONT ENCODING - LGR
+% --feature=dnom --ligkern=* {KL} * STEP-Regular.otf STEP-Regular-dnom-lgr'

@@ -1,11 +1,14 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[oldstyle]{step}\usepackage{newtxmath}
+\usepackage{times,newtxmath}
+\usepackage[scale=.9]{courierten}
+\usepackage{step}
 \usepackage[letterpaper]{geometry}
-\usepackage[main=english]{babel}
+\usepackage[greek,main=english]{babel}
 \usepackage{hologo}
-\usepackage[protrusion,babel]{microtype}
+\usepackage[expansion=false,protrusion,babel]{microtype}
+\DeclareMicrotypeAlias{\rmdefault}{ptm}
 \usepackage{footmisc}
 \makeatletter
 \renewcommand\@makefnmark{\hbox{\@textsuperscript{\normalfont\lining{\@thefnmark}}}}
@@ -13,27 +16,32 @@
 \DeclareRobustCommand*\textsubscript[1]{\@textsubscript{\lining{#1}}}
 \makeatother
 
+
+
 \usepackage{booktabs}
 \title{The STEP fonts}
-\date{Version 2.0.3\\February 9, 2020}
+\date{Version 2.0.4\\\today}
 \author{Daniel~Benjamin Miller\thanks{\texttt{dbmiller@dbmiller.org}}}
 \begin{document}
 \maketitle
-The STEP fonts are a free Times-like (i.e., Times replacement) font family, implementing a design first created for \textit{The Times} of London in 1932. These fonts are meant to be compatible in design with Adobe's digitization of Linotype Times, which is commonly used in professional publishing. Linotype's Times design is similar, but not exactly identical to Monotype's Times New Roman. STEP is an acronym for \textit{Serif Typeface for Electronic Publishing}, though its meaning is flexible.
-\section{History}
-The STEP fonts are based on the STIX\footnote{\texttt{https://ctan.org/pkg/stix}} and XITS\footnote{\texttt{https://github.com/alif-type/xits}} fonts. The core character set came from STIX; Khaled Hosny made some improvements and fixes in XITS. Other improvements were made by myself (both in XITS and STEP). STEP, unlike XITS, does not hold itself to the goal of strict backwards compatibility with STIX. STEP changes vertical and horizontal metrics from XITS (mostly useful for non-\TeX\ applications) to match those of Adobe's Linotype Times. Further, for text fonts, STEP supports the Type 1 format and includes support for use with \LaTeX.
-\section{Why STEP?}
-The STEP fonts are far from the only free digitization of Times available for use with \LaTeX. The fonts provide some features not found in other commonly-used versions, including small capitals and old-style figures which were manually drawn instead of scaled (semi-) automatically, ensuring higher quality; other Times fonts available often do not include small capitals or old-style figures at all.
-
-Greek support is limited; polytonic Greek is found in the regular font, whereas the other fonts in the family support monotonic Greek only. The Greek does not correspond in design to Linotype Times, but rather to MicroPress' TM Text Extension (MicroPress kindly donated some outlines to the STIX project). A better option for Greek text is discussed in the \textit{Usage} section. Cyrillic support is taken from URW Nimbus Roman. I do not personally use the Cyrillic alphabet, so I cannot comment on the character set. STEP's character support for certain other languages which use the Latin alphabet (e.g., Vietnamese) is lacking, and improvements are planned for the future.
+The STEP fonts are a free Times-like (i.e., Times replacement) font family, implementing a design first created for \textit{The Times} of London in 1932. These fonts are meant to be compatible in design with Adobe's digitization of Linotype Times, which is commonly used in desktop publishing.
 
 \section{Usage}
 To use the STEP fonts, load the \LaTeX\ package \texttt{step}.
 \begin{verbatim}
 \usepackage{step}
 \end{verbatim}
-Do remember that it is usually wise to load \texttt{fontenc} with the appropriate encoding(s). The \LaTeX\ package does not include support for any math fonts. I recommend you use STEP with \texttt{newtxmath}; note that STEP should be loaded before \texttt{newtxmath}. Alternatively, you can load \texttt{stix} with the \texttt{notext} option. See the documentation for those packages to find out more about available options.
-\subsection{Package Options}
+Do remember that it is usually wise to load \texttt{fontenc} with the appropriate encoding(s).
+
+For mathematics, it is recommended to add \texttt{\textbackslash usepackage\{times,newtxmath\}} (note that this must be loaded \emph{before} STEP). See the documentation for \texttt{newtxmath} to find out more about available options.
+
+If you are using \hologo{LuaLaTeX} or \hologo{XeLaTeX}, you may use the Unicode version of STEP with \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}}:
+\begin{verbatim}
+\usepackage{fontspec}\setmainfont{STEP}
+\end{verbatim}
+When using \texttt{fontspec}, all font options are handled according to that package's functions. See its documentation for details. I recommend that even if using OpenType for the body text, that you use the math fonts in the conventional way (mentioned above), but, if you wish, you may use XITS Math.
+
+\subsection{Package options}
 \begin{tabular}{@{} ll @{}}
 \toprule
 Package Option & Feature \\
@@ -54,18 +62,21 @@ Text Command & Feature \\
 \texttt{\textbackslash textin\{\}} & Use inferior figures \textin{1234567890}\\
 \bottomrule
 \end{tabular}
-\subsection{Greek text using \texttt{txfontsb}}
-For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb}, which provide good support for monotonic and polytonic Greek. You can access these by adding the following to your preamble:
+\subsection{Greek text fonts}
+For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb} or \texttt{tempora}, which provide good support for monotonic and polytonic Greek. You can access these by adding the following to your preamble (choosing one of \texttt{txrc} or \texttt{Tempora-TLF}):
 \begin{verbatim}
 \usepackage{substitutefont}
-\substitutefont{LGR}{\rmdefault}{txrc}
+\substitutefont{LGR}{\rmdefault}{<txrc> or <Tempora-TLF>}
 \end{verbatim}
-\subsection{Figures in footnotes}
-To use superior figures for footnotes, include the following line in your preamble:
+
+If you are using the OpenType version of STEP, I recommend you use the Babel function for language-specific OpenType fonts (covered in detail in the \texttt{babel}\footnote{\texttt{https://ctan.org/pkg/babel}} documentation). For a test version of the new STEP Greek font (only available in upright form at writing), see the test repository on GitHub.\footnote{\texttt{https://github.com/dbenjaminmiller/STEPGreekTest}}
+
 \begin{verbatim}
-\usepackage[supstfm=STEP-Regular-sup-t1]{superiors}
+\babelfont[greek]{rm}[]{STEPGreekTest}
 \end{verbatim}
-However, it should be noted that the superiors included in STEP may not be ideal for use in footnotes. For example, \textsu{25} and \textsu{15} print awkwardly. So I recommend you not use superior figures, but instead normal lining figures for footnotes. If you have set your numbers to be old-style, then, by \LaTeX's defaults, the old-style numbers will be used for footnotes as well. To use lining figures in footnote markers, as well as superscript and subscript text, add the following to your preamble:
+
+\subsection{Figures in footnotes}
+The superior figures included in STEP may not be ideal for use in footnotes. For example, \textsu{25} and \textsu{15} print awkwardly. So I recommend you not use superior figures, but instead normal lining figures for footnotes. If you have set your numbers to be old-style, then, by \LaTeX's defaults, the old-style numbers will be used for footnotes as well. To use lining figures in footnote markers, as well as superscript and subscript text, add the following to your preamble:
 \begin{verbatim}
 \usepackage{footmisc}
 \makeatletter
@@ -77,20 +88,6 @@ However, it should be noted that the superiors included in STEP may not be ideal
 \@textsubscript{\lining{#1}}}
 \makeatother
 \end{verbatim}
-\subsection{Usage with \texttt{fontspec}}
-If you are using \hologo{LuaLaTeX} or \hologo{XeLaTeX}, you may use STEP with \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}} as follows:
-\begin{verbatim}
-\usepackage{fontspec}
-\setmainfont{STEP}
-\end{verbatim}
-When using \texttt{fontspec}, all font options are handled according to that package's facilities. See its documentation for details.
-
-If you wish to use the math font as well (which is based on XITS), this is possible. Please note that there are some known issues with \texttt{unicode-math}, especially in \hologo{XeTeX}, and that OpenType math fonts do not correspond perfectly to the standard \TeX\ font behavior. Since it is based on XITS, which is based on STIX, the STEP OpenType math fonts match \texttt{stix} rather than \texttt{newtxmath} in design.
-\begin{verbatim}
-\usepackage{unicode-math}
-\setmathfont{STEP Math}
-\end{verbatim}
-For more information on options available with the STEP math font, please see the documentation for XITS.
 \section{Contributing}
 Contributions to the fonts and their \LaTeX\ support may be sent as pull requests to the project's GitHub repository.\footnote{\texttt{https://github.com/dbenjaminmiller/step}}
 \section{Licensing}
