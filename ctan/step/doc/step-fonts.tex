@@ -1,9 +1,9 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{times,newtxmath}
 \usepackage[scale=.9]{courierten}
-\usepackage{step}
+\usepackage{step}\usepackage[notext]{stix}
+\normalfont\parindent=1.5em
 \usepackage[letterpaper]{geometry}
 \usepackage[greek,main=english]{babel}
 \usepackage{hologo}
@@ -20,27 +20,25 @@
 
 \usepackage{booktabs}
 \title{The STEP fonts}
-\date{Version 2.0.4\\\today}
+\date{Version 2.0.4a\\\today}
 \author{Daniel~Benjamin Miller\thanks{\texttt{dbmiller@dbmiller.org}}}
 \begin{document}
 \maketitle
 The STEP fonts are a free Times-like (i.e., Times replacement) font family, implementing a design first created for \textit{The Times} of London in 1932. These fonts are meant to be compatible in design with Adobe's digitization of Linotype Times, which is commonly used in desktop publishing.
 
 \section{Usage}
-To use the STEP fonts, load the \LaTeX\ package \texttt{step}.
+To use the STEP fonts, load the \LaTeX\ package \texttt{step}, optionally with \texttt{stix} for math.
 \begin{verbatim}
-\usepackage{step}
+\usepackage{step}\usepackage[notext]{stix}
 \end{verbatim}
-Do remember that it is usually wise to load \texttt{fontenc} with the appropriate encoding(s).
 
-For mathematics, it is recommended to add \texttt{\textbackslash usepackage\{times,newtxmath\}} (note that this must be loaded \emph{before} STEP). See the documentation for \texttt{newtxmath} to find out more about available options.
-
-If you are using \hologo{LuaLaTeX} or \hologo{XeLaTeX}, you may use the Unicode version of STEP with \texttt{fontspec}\footnote{\texttt{https://ctan.org/pkg/fontspec}}:
+If you are using \hologo{LuaLaTeX} or \hologo{XeLaTeX}, you may use the Unicode version of STEP with \texttt{fontspec}, along with XITS for math (using \texttt{unicode-math}).
 \begin{verbatim}
-\usepackage{fontspec}\setmainfont{STEP}
+\usepackage{fontspec,unicode-math}\setmainfont[]{STEP}
+\setmathfont[StylisticSet=0]{XITS Math}
+\setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 \end{verbatim}
-When using \texttt{fontspec}, all font options are handled according to that package's functions. See its documentation for details. I recommend that even if using OpenType for the body text, that you use the math fonts in the conventional way (mentioned above), but, if you wish, you may use XITS Math.
-
+When using \texttt{fontspec}, all font options are handled according to that package's functions. See its documentation for details.
 \subsection{Package options}
 \begin{tabular}{@{} ll @{}}
 \toprule
@@ -63,13 +61,13 @@ Text Command & Feature \\
 \bottomrule
 \end{tabular}
 \subsection{Greek text fonts}
-For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb} or \texttt{tempora}, which provide good support for monotonic and polytonic Greek. You can access these by adding the following to your preamble (choosing one of \texttt{txrc} or \texttt{Tempora-TLF}):
+For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb} or \texttt{tempora}, which provide good support for monotonic and polytonic Greek, or the beta version of STEP Greek, which only includes a regular upright font at writing (with full polytonic support). You can access these by adding the following to your preamble (choosing one of \texttt{txrc}, \texttt{Tempora-TLF}, or \texttt{STEPGreekTest-TLF}):
 \begin{verbatim}
 \usepackage{substitutefont}
-\substitutefont{LGR}{\rmdefault}{<txrc> or <Tempora-TLF>}
+\substitutefont{LGR}{\rmdefault}{<fontname>}
 \end{verbatim}
 
-If you are using the OpenType version of STEP, I recommend you use the Babel function for language-specific OpenType fonts (covered in detail in the \texttt{babel}\footnote{\texttt{https://ctan.org/pkg/babel}} documentation). For a test version of the new STEP Greek font (only available in upright form at writing), see the test repository on GitHub.\footnote{\texttt{https://github.com/dbenjaminmiller/STEPGreekTest}}
+If you are using the OpenType version of STEP, I recommend you use the Babel function for language-specific OpenType fonts (covered in detail in the \texttt{babel} documentation). For a test version of the new STEP Greek font, available on GitHub,\footnote{\texttt{https://github.com/dbenjaminmiller/STEPGreekTest}} use:
 
 \begin{verbatim}
 \babelfont[greek]{rm}[]{STEPGreekTest}

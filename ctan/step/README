@@ -1,14 +1,14 @@
-STEP fonts version 2.0.3
-February 9, 2020
+STEP fonts version 2.0.4a
+January 2, 2021
 
 The STEP fonts are a free Times-like (i.e., Times replacement) font family,
 implementing a design first created for The Times of London in 1932. These fonts
-are meant to be compatible in design with Adobe’s digitization of Linotype
-Times, commonly used in professional publishing.
+are meant to be compatible in design with Adobe's digitization of Linotype
+Times (commonly used in professional publishing).
 
-For basic use of the fonts, simply invoke:
+For basic use of the fonts, simply add the following to your preamble:
 
-\usepackage{step,newtxmath}
+\usepackage{step}\usepackage[notext]{stix}
 
 or see the documentation for more details.
 
