@@ -2,25 +2,17 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[scale=.9]{courierten}
-\usepackage{step}\usepackage[notext]{stix}
+\usepackage[sups]{step}\usepackage[notext]{stix}
+\usepackage[supstfm=STEP-Regular-sup-t1]{superiors}
 \normalfont\parindent=1.5em
 \usepackage[letterpaper]{geometry}
-\usepackage[greek,main=english]{babel}
+\usepackage[main=english]{babel}
 \usepackage{hologo}
 \usepackage[expansion=false,protrusion,babel]{microtype}
-\DeclareMicrotypeAlias{\rmdefault}{ptm}
-\usepackage{footmisc}
-\makeatletter
-\renewcommand\@makefnmark{\hbox{\@textsuperscript{\normalfont\lining{\@thefnmark}}}}
-\DeclareRobustCommand*\textsuperscript[1]{\@textsuperscript{\lining{#1}}}
-\DeclareRobustCommand*\textsubscript[1]{\@textsubscript{\lining{#1}}}
-\makeatother
-
-
-
 \usepackage{booktabs}
+\usepackage{parskip}
 \title{The STEP fonts}
-\date{Version 2.0.4a\\\today}
+\date{Version 2.0.5\\\today}
 \author{Daniel~Benjamin Miller\thanks{\texttt{dbmiller@dbmiller.org}}}
 \begin{document}
 \maketitle
@@ -30,6 +22,11 @@ The STEP fonts are a free Times-like (i.e., Times replacement) font family, impl
 To use the STEP fonts, load the \LaTeX\ package \texttt{step}, optionally with \texttt{stix} for math.
 \begin{verbatim}
 \usepackage{step}\usepackage[notext]{stix}
+\end{verbatim}
+
+To get superior figures in text, add:
+\begin{verbatim}
+\usepackage[supstfm=STEP-Regular-sup-t1]{superiors}
 \end{verbatim}
 
 If you are using \hologo{LuaLaTeX} or \hologo{XeLaTeX}, you may use the Unicode version of STEP with \texttt{fontspec}, along with XITS for math (using \texttt{unicode-math}).
@@ -61,7 +58,7 @@ Text Command & Feature \\
 \bottomrule
 \end{tabular}
 \subsection{Greek text fonts}
-For a Greek font which is better suited for text (and which includes bold, italic and bold italic as well as regular), I recommend using the fonts from \texttt{txfontsb} or \texttt{tempora}, which provide good support for monotonic and polytonic Greek, or the beta version of STEP Greek, which only includes a regular upright font at writing (with full polytonic support). You can access these by adding the following to your preamble (choosing one of \texttt{txrc}, \texttt{Tempora-TLF}, or \texttt{STEPGreekTest-TLF}):
+As a matching Greek text font, I recommend using \texttt{txfontsb} or \texttt{tempora}, which provide good support for monotonic and polytonic Greek, or the beta version of STEP Greek, which only includes a regular upright font at writing (with full polytonic support). You can access these by adding the following to your preamble (choosing one of \texttt{txrc}, \texttt{Tempora-TLF}, or \texttt{STEPGreekTest-TLF}):
 \begin{verbatim}
 \usepackage{substitutefont}
 \substitutefont{LGR}{\rmdefault}{<fontname>}
@@ -73,19 +70,6 @@ If you are using the OpenType version of STEP, I recommend you use the Babel fun
 \babelfont[greek]{rm}[]{STEPGreekTest}
 \end{verbatim}
 
-\subsection{Figures in footnotes}
-The superior figures included in STEP may not be ideal for use in footnotes. For example, \textsu{25} and \textsu{15} print awkwardly. So I recommend you not use superior figures, but instead normal lining figures for footnotes. If you have set your numbers to be old-style, then, by \LaTeX's defaults, the old-style numbers will be used for footnotes as well. To use lining figures in footnote markers, as well as superscript and subscript text, add the following to your preamble:
-\begin{verbatim}
-\usepackage{footmisc}
-\makeatletter
-\renewcommand\@makefnmark{
-\hbox{\@textsuperscript{\normalfont\lining{\@thefnmark}}}}
-\DeclareRobustCommand*\textsuperscript[1]{
-\@textsuperscript{\lining{#1}}}
-\DeclareRobustCommand*\textsubscript[1]{
-\@textsubscript{\lining{#1}}}
-\makeatother
-\end{verbatim}
 \section{Contributing}
 Contributions to the fonts and their \LaTeX\ support may be sent as pull requests to the project's GitHub repository.\footnote{\texttt{https://github.com/dbenjaminmiller/step}}
 \section{Licensing}

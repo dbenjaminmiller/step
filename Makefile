@@ -1,5 +1,5 @@
 NAME=STEP
-VERSION=2.0.4
+VERSION=2.0.5
 
 SRC=sources
 WEB=webfonts

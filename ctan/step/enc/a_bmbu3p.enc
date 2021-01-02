@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_bmbu3pxj2aya4uwkdq3cf4uegh
-% Encoding created by otftotfm on Sun Oct 18 00:16:13 2020
+% Encoding created by otftotfm on Sat Jan  2 15:01:05 2021
 % Command line follows encoding
 /AutoEnc_bmbu3pxj2aya4uwkdq3cf4uegh [
 %00
@@ -54,10 +54,9 @@
   /uni1FB3 /uni1FC3 /uni1FF3 /uni1FE5 /uni1FE4 /uni0386 /.notdef /.notdef
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_lgr
-% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
-% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
-% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
-% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
-% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
-% --no-updmap --force --coding-scheme=GREEK FONT ENCODING - LGR
-% --feature=sinf --ligkern=* {KL} * STEP-Regular.otf STEP-Regular-inf-lgr'
+% --tfm-directory=fonts/tfm/public/step --vf-directory=fonts/vf/public/step
+% --type1-directory=fonts/type1/public/step
+% --encoding-directory=fonts/enc/dvips/step
+% --map-file=fonts/map/dvips/step/STEP.map --no-updmap --force
+% --coding-scheme=GREEK FONT ENCODING - LGR --feature=sinf --ligkern=* {KL}
+% * STEP-Regular.otf STEP-Regular-inf-lgr'

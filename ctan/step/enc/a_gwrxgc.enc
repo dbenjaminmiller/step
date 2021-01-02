@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_gwrxgcjfqvuxewenbxuboytpfd
-% Encoding created by otftotfm on Sun Oct 18 00:16:07 2020
+% Encoding created by otftotfm on Sat Jan  2 15:01:01 2021
 % Command line follows encoding
 /AutoEnc_gwrxgcjfqvuxewenbxuboytpfd [
 %00
@@ -54,12 +54,13 @@
   /oslash.sc /uni0282 /uni0288 /uni028D /uni0290 /uni0291 /thorn.sc /uni0195
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_t3
-% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
-% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
-% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
-% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
-% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
-% --no-updmap --force --coding-scheme=TEX IPA ENCODING --feature=kern
-% --feature=liga --feature=smcp --ligkern=f i =: fi --ligkern=f l =: fl
-% --ligkern=f f =: ff --ligkern=ff i =: ffi --ligkern=ff l =: ffl
-% --unicoding=germandbls =: SSsmall STEP-Regular.otf STEP-Regular-tlf-sc-t3'
+% --tfm-directory=fonts/tfm/public/step --vf-directory=fonts/vf/public/step
+% --type1-directory=fonts/type1/public/step
+% --encoding-directory=fonts/enc/dvips/step
+% --map-file=fonts/map/dvips/step/STEP.map --no-updmap --force
+% --coding-scheme=TEX IPA ENCODING --feature=kern --feature=liga
+% --feature=smcp --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
+% --ligkern=ff i =: ffi --ligkern=ff l =: ffl --unicoding=germandbls =:
+% SSsmall --unicoding=ff =: FFsmall --unicoding=fi =: FIsmall
+% --unicoding=ffi =: FFIsmall --unicoding=fl =: FLsmall --unicoding=ffl =:
+% FFLsmall STEP-Regular.otf STEP-Regular-tlf-sc-t3'

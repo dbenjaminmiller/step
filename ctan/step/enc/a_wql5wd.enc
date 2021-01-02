@@ -1,7 +1,7 @@
 % THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
 
 %%AutoEnc_wql5wdufgatxrvgre3iyrd2qlc
-% Encoding created by otftotfm on Sun Oct 18 00:16:17 2020
+% Encoding created by otftotfm on Sat Jan  2 15:01:10 2021
 % Command line follows encoding
 /AutoEnc_wql5wdufgatxrvgre3iyrd2qlc [
 %00
@@ -54,10 +54,9 @@
   /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
 ] def
 % Command line: 'otftotfm --automatic --encoding=fontools_ly1
-% --tfm-directory=/home/dbmiller/Desktop/fonts/tfm/public/step
-% --vf-directory=/home/dbmiller/Desktop/fonts/vf/public/step
-% --type1-directory=/home/dbmiller/Desktop/fonts/type1/public/step
-% --encoding-directory=/home/dbmiller/Desktop/fonts/enc/dvips/step
-% --map-file=/home/dbmiller/Desktop/fonts/map/dvips/step/STEP.map
-% --no-updmap --force --coding-scheme=TEX TYPEWRITER AND WINDOWS ANSI
-% --feature=sups --ligkern=* {KL} * STEP-Italic.otf STEP-Italic-sup-ly1'
+% --tfm-directory=fonts/tfm/public/step --vf-directory=fonts/vf/public/step
+% --type1-directory=fonts/type1/public/step
+% --encoding-directory=fonts/enc/dvips/step
+% --map-file=fonts/map/dvips/step/STEP.map --no-updmap --force
+% --coding-scheme=TEX TYPEWRITER AND WINDOWS ANSI --feature=sups --ligkern=*
+% {KL} * STEP-Italic.otf STEP-Italic-sup-ly1'
